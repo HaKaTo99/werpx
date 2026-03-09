@@ -52,3 +52,26 @@ Berikut adalah perbandingan arsitektur *Hybrid* (Frappe + Rust + React) WERP X d
 - [x] Pengembangan Custom Module untuk HR tingkat lanjut - *Kalkulasi PPh21 & BPJS di hr_extension.py*
 - [x] Pengembangan Project Portfolio Management - *API Ekstensi di ppm_extension.py*
 - [x] Penyesuaian Compliance & Audit Trail (Integrasi Forge Engine Rust) - *Robust Error Handling Diterapkan*
+
+---
+
+## 📚 Pusat Dokumentasi Terpadu (Documentation Hub)
+
+Keseluruhan literatur teknis, operasional, dan manajerial dari ekosistem WERP X Enterprise OS didokumentasikan sedemikian rupa melalui berkas `.md` terkait yang menyatu secara harmonis dengan Roadmap ini. Silakan merujuk pada tautan dokumen spesifik di bawah ini:
+
+### A. Panduan Standarisasi (Template)
+Dokumen ini melandasi cara teknis kustomisasi WERP X di awal:
+1. **[Template Konfigurasi Workflow Asinkron](./TEMPLATE_WORKFLOW_APPROVAL.md)**
+2. **[Template Pembuatan Custom Report SQL](./TEMPLATE_CUSTOM_REPORT.md)**
+
+### B. Instruksi Implementasi & IT (Deployment)
+Digunakan oleh tim teknisi *Sysadmin Software Engineer*:
+3. **[Deployment & Installation Guide](../07_werpx_legal_docs/DEPLOYMENT_GUIDE.md)**: Panduan step-by-step menyiapkan Frappe Python, React, dan Rust.
+4. **[External API Reference](../07_werpx_legal_docs/API_REFERENCE.md)**: Titik integrasi REST API bagi pengembang Pihak Ketiga (e.g., sinkronisasi HR Fingerprint dsb).
+
+### C. Manajemen Pengguna & Kepatuhan Legal (ISO/PMBOK)
+Instruksi kerja dan standardisasi kepatuhan korporat:
+5. **[User Training Manual (SOP Bisnis)](../07_werpx_legal_docs/user_training_manual.md)**: Panduan interaktif skenario harian (Cara Membuat Cuti, Membuat Tagihan/PO) bagi Staf hingga eksekutif perusahaan.
+6. **[PMBOK & ISO Compliance Standard](../07_werpx_legal_docs/pmbok_iso_compliance.md)**: Cetak biru mitigasi risiko dan audit keamanan (ISO 27001 dan Manajemen Mutu ISO 9001) yang menjadi jiwa arsitektur WERP X.
+
+_Seluruh file terhubung sebagai satu kesatuan Enterprise OS Architecture._
