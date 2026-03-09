@@ -20,11 +20,11 @@ Berikut adalah perbandingan arsitektur *Hybrid* (Frappe + Rust + React) WERP X d
 ## Fase 1: Aktivasi & Setup Modul Inti
 - [x] Setup Akuntansi (GL, AP, AR, Cash, Fixed Asset) - *Via setup_master.py*
 - [x] Setup Multi-company, multi-currency - *Via setup_master.py*
-- [ ] Setup Inventory & Purchasing
-- [ ] Setup Sales & CRM
-- [ ] Setup Project Management
-- [ ] Setup Manufacturing
-- [ ] Setup HR & Payroll (basic)
+- [x] Setup Inventory & Purchasing - *Warehouse Group via setup_master.py*
+- [x] Setup Sales & CRM - *Territory Induk via setup_master.py*
+- [x] Setup Project Management - *Project Dashboard*
+- [x] Setup Manufacturing - *BOM Master Data Ready*
+- [x] Setup HR & Payroll (basic) - *Leave Type via setup_master.py*
 
 ## Fase 2: Kustomisasi Workflow & Approval
 - [x] Konfigurasi Approval PO (Purchase Order) - *Via fixtures JSON*
@@ -36,7 +36,7 @@ Berikut adalah perbandingan arsitektur *Hybrid* (Frappe + Rust + React) WERP X d
 ## Fase 3: Integrasi & Otomatisasi
 - [x] Integrasi SIMAPROX (Dashboard Executive)
 - [x] Pembuatan API untuk sistem eksternal (Payroll provider, Power BI, e-Faktur)
-- [ ] Setup Otomatisasi posting jurnal, penjadwalan (Scheduler), dan Webhooks
+- [x] Setup Otomatisasi posting jurnal, penjadwalan (Scheduler), dan Webhooks - *Via scheduler.py & hooks.py CRON*
 
 ## Fase 4: Pelaporan & Dashboard
 - [x] Desain Laporan Operasional (Inventory, Proyek, Produksi) - *Laporan Laba Proyek Core*
@@ -46,9 +46,9 @@ Berikut adalah perbandingan arsitektur *Hybrid* (Frappe + Rust + React) WERP X d
 ## Fase 5: Kustomisasi UI/UX
 - [x] Mapping Permission & Role (RBAC) - *WERPX CEO, dsb via custom_roles.json*
 - [x] Kustomisasi Menu dan Tema (Glassmorphism siap) - *CSS Modifikasi Global Frappe Selesai*
-- [ ] Penyiapan User Training & Dokumentasi Penggunaan
+- [x] Penyiapan User Training & Dokumentasi Penggunaan - *Via user_training_manual.md*
 
 ## Fase 6: Ekstensi Fitur
-- [ ] Pengembangan Custom Module untuk HR tingkat lanjut
-- [ ] Pengembangan Project Portfolio Management
+- [x] Pengembangan Custom Module untuk HR tingkat lanjut - *Kalkulasi PPh21 & BPJS di hr_extension.py*
+- [x] Pengembangan Project Portfolio Management - *API Ekstensi di ppm_extension.py*
 - [x] Penyesuaian Compliance & Audit Trail (Integrasi Forge Engine Rust) - *Robust Error Handling Diterapkan*
