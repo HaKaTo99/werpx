@@ -1,0 +1,21 @@
+/* The Signature UI of WERP X Core */
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #2c3e50;
+}
+
+/* Glassmorphism effects for ERPNext cards and navbars */
+.navbar, .standard-sidebar, .card, .widget {
+    background: rgba(255, 255, 255, 0.35) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07) !important;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%) !important;
+    border: none !important;
+    border-radius: 8px !important;
+}

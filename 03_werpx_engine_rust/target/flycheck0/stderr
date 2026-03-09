@@ -1,0 +1,2910 @@
+   0.709163100s  INFO prepare_target{force=false package_id=werpx_engine_rust v0.1.0 (D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust) target="werpx_engine_rust"}: cargo::core::compiler::fingerprint: fingerprint error for werpx_engine_rust v0.1.0 (D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust)/Check { test: false }/TargetInner { name: "werpx_engine_rust", doc: true, ..: with_path("D:\\GitHub\\werpx-enterprise-os\\03_werpx_engine_rust\\src\\main.rs", Edition2021) }
+   0.709306300s  INFO prepare_target{force=false package_id=werpx_engine_rust v0.1.0 (D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust) target="werpx_engine_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\werpx_engine_rust-b0bd9fee1ccfa5a5\bin-werpx_engine_rust`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.744115900s  INFO prepare_target{force=false package_id=actix-cors v0.7.1 target="actix_cors"}: cargo::core::compiler::fingerprint: fingerprint error for actix-cors v0.7.1/Check { test: false }/TargetInner { ..: lib_target("actix_cors", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\actix-cors-0.7.1\\src\\lib.rs", Edition2021) }
+   0.744315000s  INFO prepare_target{force=false package_id=actix-cors v0.7.1 target="actix_cors"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\actix-cors-43041b0b2135b3fd\lib-actix_cors`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.746526100s  INFO prepare_target{force=false package_id=actix-utils v3.0.1 target="actix_utils"}: cargo::core::compiler::fingerprint: fingerprint error for actix-utils v3.0.1/Check { test: false }/TargetInner { ..: lib_target("actix_utils", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\actix-utils-3.0.1\\src\\lib.rs", Edition2018) }
+   0.746710100s  INFO prepare_target{force=false package_id=actix-utils v3.0.1 target="actix_utils"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\actix-utils-d2bb77f52d3a5926\lib-actix_utils`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.800272100s  INFO prepare_target{force=false package_id=actix-web v4.13.0 target="actix_web"}: cargo::core::compiler::fingerprint: fingerprint error for actix-web v4.13.0/Check { test: false }/TargetInner { ..: lib_target("actix_web", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\actix-web-4.13.0\\src\\lib.rs", Edition2021) }
+   0.800336200s  INFO prepare_target{force=false package_id=actix-web v4.13.0 target="actix_web"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\actix-web-d2c15e2483923f04\lib-actix_web`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.803541400s  INFO prepare_target{force=false package_id=actix-codec v0.5.2 target="actix_codec"}: cargo::core::compiler::fingerprint: fingerprint error for actix-codec v0.5.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("actix_codec", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\actix-codec-0.5.2\\src\\lib.rs", Edition2021) }
+   0.803610300s  INFO prepare_target{force=false package_id=actix-codec v0.5.2 target="actix_codec"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\actix-codec-9536a8d405380443\lib-actix_codec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.804748900s  INFO prepare_target{force=false package_id=bitflags v2.11.0 target="bitflags"}: cargo::core::compiler::fingerprint: fingerprint error for bitflags v2.11.0/Check { test: false }/TargetInner { ..: lib_target("bitflags", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bitflags-2.11.0\\src\\lib.rs", Edition2021) }
+   0.804794300s  INFO prepare_target{force=false package_id=bitflags v2.11.0 target="bitflags"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\bitflags-c53effada8c509cf\lib-bitflags`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.189600200s  INFO prepare_target{force=false package_id=tracing v0.1.44 target="tracing"}: cargo::core::compiler::fingerprint: fingerprint error for tracing v0.1.44/Check { test: false }/TargetInner { ..: lib_target("tracing", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tracing-0.1.44\\src\\lib.rs", Edition2018) }
+   1.189659400s  INFO prepare_target{force=false package_id=tracing v0.1.44 target="tracing"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\tracing-955af7262cd0cdbc\lib-tracing`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.196419800s  INFO prepare_target{force=false package_id=tracing-core v0.1.36 target="tracing_core"}: cargo::core::compiler::fingerprint: fingerprint error for tracing-core v0.1.36/Check { test: false }/TargetInner { ..: lib_target("tracing_core", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tracing-core-0.1.36\\src\\lib.rs", Edition2018) }
+   1.196482200s  INFO prepare_target{force=false package_id=tracing-core v0.1.36 target="tracing_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\tracing-core-a3553ccbd1b4d906\lib-tracing_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.197387400s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.3/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.3\\src\\lib.rs", Edition2021) }
+   1.197427300s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\once_cell-fc27bbd0d3f73aab\lib-once_cell`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.199013600s  INFO prepare_target{force=false package_id=actix-http v3.12.0 target="actix_http"}: cargo::core::compiler::fingerprint: fingerprint error for actix-http v3.12.0/Check { test: false }/TargetInner { ..: lib_target("actix_http", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\actix-http-3.12.0\\src\\lib.rs", Edition2021) }
+   1.199053400s  INFO prepare_target{force=false package_id=actix-http v3.12.0 target="actix_http"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\actix-http-5e5fb08e0ffcb588\lib-actix_http`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.200727500s  INFO prepare_target{force=false package_id=actix-rt v2.11.0 target="actix_rt"}: cargo::core::compiler::fingerprint: fingerprint error for actix-rt v2.11.0/Check { test: false }/TargetInner { ..: lib_target("actix_rt", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\actix-rt-2.11.0\\src\\lib.rs", Edition2021) }
+   1.200774900s  INFO prepare_target{force=false package_id=actix-rt v2.11.0 target="actix_rt"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\actix-rt-cfdf1e49c0c96b8f\lib-actix_rt`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.201731200s  INFO prepare_target{force=false package_id=actix-service v2.0.3 target="actix_service"}: cargo::core::compiler::fingerprint: fingerprint error for actix-service v2.0.3/Check { test: false }/TargetInner { ..: lib_target("actix_service", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\actix-service-2.0.3\\src\\lib.rs", Edition2021) }
+   1.201765800s  INFO prepare_target{force=false package_id=actix-service v2.0.3 target="actix_service"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\actix-service-b930635d8ac6d829\lib-actix_service`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.202453300s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.22.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.22.1\\src\\lib.rs", Edition2018) }
+   1.202485000s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\base64-c6b1e4633ed34f47\lib-base64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.203393800s  INFO prepare_target{force=false package_id=brotli v8.0.2 target="brotli"}: cargo::core::compiler::fingerprint: fingerprint error for brotli v8.0.2/Check { test: false }/TargetInner { ..: lib_target("brotli", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\brotli-8.0.2\\src\\lib.rs", Edition2015) }
+   1.203438400s  INFO prepare_target{force=false package_id=brotli v8.0.2 target="brotli"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\brotli-28f378c4728ab21e\lib-brotli`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.237031000s  INFO prepare_target{force=false package_id=brotli-decompressor v5.0.0 target="brotli_decompressor"}: cargo::core::compiler::fingerprint: fingerprint error for brotli-decompressor v5.0.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("brotli_decompressor", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\brotli-decompressor-5.0.0\\src\\lib.rs", Edition2015) }
+   1.237113800s  INFO prepare_target{force=false package_id=brotli-decompressor v5.0.0 target="brotli_decompressor"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\brotli-decompressor-ba5f2b09b4e679bc\lib-brotli_decompressor`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.238453000s  INFO prepare_target{force=false package_id=bytestring v1.5.0 target="bytestring"}: cargo::core::compiler::fingerprint: fingerprint error for bytestring v1.5.0/Check { test: false }/TargetInner { ..: lib_target("bytestring", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bytestring-1.5.0\\src\\lib.rs", Edition2021) }
+   1.238505500s  INFO prepare_target{force=false package_id=bytestring v1.5.0 target="bytestring"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\bytestring-71805e894bbc2994\lib-bytestring`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.239394300s  INFO prepare_target{force=false package_id=derive_more v2.1.1 target="derive_more"}: cargo::core::compiler::fingerprint: fingerprint error for derive_more v2.1.1/Check { test: false }/TargetInner { ..: lib_target("derive_more", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\derive_more-2.1.1\\src\\lib.rs", Edition2021) }
+   1.239436200s  INFO prepare_target{force=false package_id=derive_more v2.1.1 target="derive_more"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\derive_more-70dff035a59d24a9\lib-derive_more`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.241761800s  INFO prepare_target{force=false package_id=encoding_rs v0.8.35 target="encoding_rs"}: cargo::core::compiler::fingerprint: fingerprint error for encoding_rs v0.8.35/Check { test: false }/TargetInner { ..: lib_target("encoding_rs", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\encoding_rs-0.8.35\\src\\lib.rs", Edition2018) }
+   1.241806500s  INFO prepare_target{force=false package_id=encoding_rs v0.8.35 target="encoding_rs"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\encoding_rs-466b9547fa1053a1\lib-encoding_rs`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.242468300s  INFO prepare_target{force=false package_id=flate2 v1.1.9 target="flate2"}: cargo::core::compiler::fingerprint: fingerprint error for flate2 v1.1.9/Check { test: false }/TargetInner { ..: lib_target("flate2", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\flate2-1.1.9\\src\\lib.rs", Edition2018) }
+   1.242503100s  INFO prepare_target{force=false package_id=flate2 v1.1.9 target="flate2"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\flate2-43be19b23c3e2c7c\lib-flate2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.243108700s  INFO prepare_target{force=false package_id=crc32fast v1.5.0 target="crc32fast"}: cargo::core::compiler::fingerprint: fingerprint error for crc32fast v1.5.0/Check { test: false }/TargetInner { ..: lib_target("crc32fast", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crc32fast-1.5.0\\src\\lib.rs", Edition2021) }
+   1.243132800s  INFO prepare_target{force=false package_id=crc32fast v1.5.0 target="crc32fast"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\crc32fast-f0dc2f0f6182b83f\lib-crc32fast`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.245439400s  INFO prepare_target{force=false package_id=miniz_oxide v0.8.9 target="miniz_oxide"}: cargo::core::compiler::fingerprint: fingerprint error for miniz_oxide v0.8.9/Check { test: false }/TargetInner { ..: lib_target("miniz_oxide", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\miniz_oxide-0.8.9\\src\\lib.rs", Edition2021) }
+   1.245509500s  INFO prepare_target{force=false package_id=miniz_oxide v0.8.9 target="miniz_oxide"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\miniz_oxide-8380cb7ebbc24e3c\lib-miniz_oxide`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.264010300s  INFO prepare_target{force=false package_id=simd-adler32 v0.3.8 target="simd_adler32"}: cargo::core::compiler::fingerprint: fingerprint error for simd-adler32 v0.3.8/Check { test: false }/TargetInner { ..: lib_target("simd_adler32", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\simd-adler32-0.3.8\\src\\lib.rs", Edition2018) }
+   1.264076200s  INFO prepare_target{force=false package_id=simd-adler32 v0.3.8 target="simd_adler32"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\simd-adler32-9798aecf2ff53f5b\lib-simd_adler32`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.264974000s  INFO prepare_target{force=false package_id=foldhash v0.1.5 target="foldhash"}: cargo::core::compiler::fingerprint: fingerprint error for foldhash v0.1.5/Check { test: false }/TargetInner { benched: false, ..: lib_target("foldhash", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\foldhash-0.1.5\\src\\lib.rs", Edition2021) }
+   1.265042900s  INFO prepare_target{force=false package_id=foldhash v0.1.5 target="foldhash"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\foldhash-98fc1e7129c83b88\lib-foldhash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.267650600s  INFO prepare_target{force=false package_id=h2 v0.3.27 target="h2"}: cargo::core::compiler::fingerprint: fingerprint error for h2 v0.3.27/Check { test: false }/TargetInner { ..: lib_target("h2", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\h2-0.3.27\\src\\lib.rs", Edition2018) }
+   1.267712500s  INFO prepare_target{force=false package_id=h2 v0.3.27 target="h2"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\h2-965d0e85bb1f46fe\lib-h2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.291473900s  INFO prepare_target{force=false package_id=futures-util v0.3.32 target="futures_util"}: cargo::core::compiler::fingerprint: fingerprint error for futures-util v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_util", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-util-0.3.32\\src\\lib.rs", Edition2018) }
+   1.291551700s  INFO prepare_target{force=false package_id=futures-util v0.3.32 target="futures_util"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\futures-util-af35b57f97d5009e\lib-futures_util`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.292983000s  INFO prepare_target{force=false package_id=futures-task v0.3.32 target="futures_task"}: cargo::core::compiler::fingerprint: fingerprint error for futures-task v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_task", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-task-0.3.32\\src\\lib.rs", Edition2018) }
+   1.293037600s  INFO prepare_target{force=false package_id=futures-task v0.3.32 target="futures_task"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\futures-task-7483ab1bef1d3789\lib-futures_task`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.362074900s  INFO prepare_target{force=false package_id=indexmap v2.13.0 target="indexmap"}: cargo::core::compiler::fingerprint: fingerprint error for indexmap v2.13.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("indexmap", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\indexmap-2.13.0\\src\\lib.rs", Edition2021) }
+   1.362139400s  INFO prepare_target{force=false package_id=indexmap v2.13.0 target="indexmap"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\indexmap-9a227cf0a67af7ae\lib-indexmap`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.363218800s  INFO prepare_target{force=false package_id=equivalent v1.0.2 target="equivalent"}: cargo::core::compiler::fingerprint: fingerprint error for equivalent v1.0.2/Check { test: false }/TargetInner { ..: lib_target("equivalent", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\equivalent-1.0.2\\src\\lib.rs", Edition2015) }
+   1.363271300s  INFO prepare_target{force=false package_id=equivalent v1.0.2 target="equivalent"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\equivalent-4321c324b46f9ca6\lib-equivalent`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.364232400s  INFO prepare_target{force=false package_id=hashbrown v0.16.1 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.16.1/Check { test: false }/TargetInner { ..: lib_target("hashbrown", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.16.1\\src\\lib.rs", Edition2021) }
+   1.364281300s  INFO prepare_target{force=false package_id=hashbrown v0.16.1 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\hashbrown-c6ba6d00dc85f7c2\lib-hashbrown`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.365301800s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="httparse"}: cargo::core::compiler::fingerprint: fingerprint error for httparse v1.10.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("httparse", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\httparse-1.10.1\\src\\lib.rs", Edition2018) }
+   1.365355400s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="httparse"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\httparse-1574261fd2ed66ca\lib-httparse`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.368488100s  INFO prepare_target{force=false package_id=httpdate v1.0.3 target="httpdate"}: cargo::core::compiler::fingerprint: fingerprint error for httpdate v1.0.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("httpdate", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\httpdate-1.0.3\\src\\lib.rs", Edition2021) }
+   1.368552600s  INFO prepare_target{force=false package_id=httpdate v1.0.3 target="httpdate"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\httpdate-ab5970b01025fed0\lib-httpdate`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.369770600s  INFO prepare_target{force=false package_id=language-tags v0.3.2 target="language_tags"}: cargo::core::compiler::fingerprint: fingerprint error for language-tags v0.3.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("language_tags", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\language-tags-0.3.2\\src\\lib.rs", Edition2018) }
+   1.369860100s  INFO prepare_target{force=false package_id=language-tags v0.3.2 target="language_tags"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\language-tags-8a89cfc9bfcac29a\lib-language_tags`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.370915600s  INFO prepare_target{force=false package_id=local-channel v0.1.5 target="local_channel"}: cargo::core::compiler::fingerprint: fingerprint error for local-channel v0.1.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("local_channel", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\local-channel-0.1.5\\src\\lib.rs", Edition2021) }
+   1.370966100s  INFO prepare_target{force=false package_id=local-channel v0.1.5 target="local_channel"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\local-channel-604bc5b2c01d9822\lib-local_channel`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.371900300s  INFO prepare_target{force=false package_id=mime v0.3.17 target="mime"}: cargo::core::compiler::fingerprint: fingerprint error for mime v0.3.17/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mime", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\mime-0.3.17\\src\\lib.rs", Edition2015) }
+   1.371947800s  INFO prepare_target{force=false package_id=mime v0.3.17 target="mime"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\mime-c7044bb89b712223\lib-mime`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.393587100s  INFO prepare_target{force=false package_id=rand v0.9.2 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.9.2/Check { test: false }/TargetInner { ..: lib_target("rand", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand-0.9.2\\src\\lib.rs", Edition2021) }
+   1.393641300s  INFO prepare_target{force=false package_id=rand v0.9.2 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\rand-d78a39f24d710e1f\lib-rand`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.394525900s  INFO prepare_target{force=false package_id=rand_chacha v0.9.0 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.9.0/Check { test: false }/TargetInner { ..: lib_target("rand_chacha", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_chacha-0.9.0\\src\\lib.rs", Edition2021) }
+   1.394574300s  INFO prepare_target{force=false package_id=rand_chacha v0.9.0 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\rand_chacha-fb32bbae3e9ca5b4\lib-rand_chacha`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.477570400s  INFO prepare_target{force=false package_id=sha1 v0.10.6 target="sha1"}: cargo::core::compiler::fingerprint: fingerprint error for sha1 v0.10.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha1", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha1-0.10.6\\src\\lib.rs", Edition2018) }
+   1.477627300s  INFO prepare_target{force=false package_id=sha1 v0.10.6 target="sha1"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\sha1-4aa5710ff13fa01a\lib-sha1`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.478779100s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint error for cpufeatures v0.2.17/Check { test: false }/TargetInner { ..: lib_target("cpufeatures", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cpufeatures-0.2.17\\src\\lib.rs", Edition2018) }
+   1.478833700s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\cpufeatures-fd9abae97ef2e6f8\lib-cpufeatures`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.479712500s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
+   1.479758300s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\digest-fd296902a54ef1e2\lib-digest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.480627500s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
+   1.480662300s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\block-buffer-95929d436f5383c3\lib-block_buffer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.522311500s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.7/Check { test: false }/TargetInner { ..: lib_target("crypto_common", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.7\\src\\lib.rs", Edition2018) }
+   1.522380100s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\crypto-common-ca3f27f6bad125d3\lib-crypto_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.523390000s  INFO prepare_target{force=false package_id=zstd v0.13.3 target="zstd"}: cargo::core::compiler::fingerprint: fingerprint error for zstd v0.13.3/Check { test: false }/TargetInner { ..: lib_target("zstd", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zstd-0.13.3\\src\\lib.rs", Edition2018) }
+   1.523440400s  INFO prepare_target{force=false package_id=zstd v0.13.3 target="zstd"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\zstd-b64b0031f3e237f1\lib-zstd`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.524204700s  INFO prepare_target{force=false package_id=zstd-safe v7.2.4 target="zstd_safe"}: cargo::core::compiler::fingerprint: fingerprint error for zstd-safe v7.2.4/Check { test: false }/TargetInner { ..: lib_target("zstd_safe", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zstd-safe-7.2.4\\src\\lib.rs", Edition2018) }
+   1.524240300s  INFO prepare_target{force=false package_id=zstd-safe v7.2.4 target="zstd_safe"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\zstd-safe-3a8f21fc4185612c\lib-zstd_safe`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.530185500s  INFO prepare_target{force=false package_id=zstd-sys v2.0.16+zstd.1.5.7 target="zstd_sys"}: cargo::core::compiler::fingerprint: fingerprint error for zstd-sys v2.0.16+zstd.1.5.7/Check { test: false }/TargetInner { doctest: false, ..: lib_target("zstd_sys", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zstd-sys-2.0.16+zstd.1.5.7\\src\\lib.rs", Edition2018) }
+   1.530251800s  INFO prepare_target{force=false package_id=zstd-sys v2.0.16+zstd.1.5.7 target="zstd_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\zstd-sys-fe2f88bd00b3d399\lib-zstd_sys`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.531621900s  INFO prepare_target{force=false package_id=actix-router v0.5.4 target="actix_router"}: cargo::core::compiler::fingerprint: fingerprint error for actix-router v0.5.4/Check { test: false }/TargetInner { ..: lib_target("actix_router", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\actix-router-0.5.4\\src\\lib.rs", Edition2021) }
+   1.531668700s  INFO prepare_target{force=false package_id=actix-router v0.5.4 target="actix_router"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\actix-router-3a52a704eed91bff\lib-actix_router`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.532688300s  INFO prepare_target{force=false package_id=regex v1.12.3 target="regex"}: cargo::core::compiler::fingerprint: fingerprint error for regex v1.12.3/Check { test: false }/TargetInner { ..: lib_target("regex", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-1.12.3\\src\\lib.rs", Edition2021) }
+   1.532719900s  INFO prepare_target{force=false package_id=regex v1.12.3 target="regex"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\regex-26a7bfc68c7e9eda\lib-regex`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.550163800s  INFO prepare_target{force=false package_id=regex-automata v0.4.14 target="regex_automata"}: cargo::core::compiler::fingerprint: fingerprint error for regex-automata v0.4.14/Check { test: false }/TargetInner { benched: false, ..: lib_target("regex_automata", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-automata-0.4.14\\src\\lib.rs", Edition2021) }
+   1.550219600s  INFO prepare_target{force=false package_id=regex-automata v0.4.14 target="regex_automata"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\regex-automata-5fbf546f0a32ff01\lib-regex_automata`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.550896000s  INFO prepare_target{force=false package_id=regex-syntax v0.8.10 target="regex_syntax"}: cargo::core::compiler::fingerprint: fingerprint error for regex-syntax v0.8.10/Check { test: false }/TargetInner { ..: lib_target("regex_syntax", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-syntax-0.8.10\\src\\lib.rs", Edition2021) }
+   1.550923300s  INFO prepare_target{force=false package_id=regex-syntax v0.8.10 target="regex_syntax"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\regex-syntax-a047cf4e992c11ac\lib-regex_syntax`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.551652900s  INFO prepare_target{force=false package_id=regex-lite v0.1.9 target="regex_lite"}: cargo::core::compiler::fingerprint: fingerprint error for regex-lite v0.1.9/Check { test: false }/TargetInner { ..: lib_target("regex_lite", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-lite-0.1.9\\src\\lib.rs", Edition2021) }
+   1.551687800s  INFO prepare_target{force=false package_id=regex-lite v0.1.9 target="regex_lite"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\regex-lite-e9a56bcd973bf101\lib-regex_lite`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.552373500s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   1.552412400s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\serde-8f37cd4ef347b056\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.555739400s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
+   1.555792700s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\serde_core-97bf846ec8420852\lib-serde_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.559650400s  INFO prepare_target{force=false package_id=actix-server v2.6.0 target="actix_server"}: cargo::core::compiler::fingerprint: fingerprint error for actix-server v2.6.0/Check { test: false }/TargetInner { ..: lib_target("actix_server", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\actix-server-2.6.0\\src\\lib.rs", Edition2021) }
+   1.559707500s  INFO prepare_target{force=false package_id=actix-server v2.6.0 target="actix_server"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\actix-server-e6f162716a8a783a\lib-actix_server`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.561007700s  INFO prepare_target{force=false package_id=socket2 v0.5.10 target="socket2"}: cargo::core::compiler::fingerprint: fingerprint error for socket2 v0.5.10/Check { test: false }/TargetInner { ..: lib_target("socket2", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\socket2-0.5.10\\src\\lib.rs", Edition2021) }
+   1.561048400s  INFO prepare_target{force=false package_id=socket2 v0.5.10 target="socket2"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\socket2-488977eb13eb9842\lib-socket2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.562002400s  INFO prepare_target{force=false package_id=windows-sys v0.52.0 target="windows_sys"}: cargo::core::compiler::fingerprint: fingerprint error for windows-sys v0.52.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("windows_sys", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-sys-0.52.0\\src\\lib.rs", Edition2021) }
+   1.562046700s  INFO prepare_target{force=false package_id=windows-sys v0.52.0 target="windows_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\windows-sys-f6bee1bee59b5ba1\lib-windows_sys`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.599967600s  INFO prepare_target{force=false package_id=actix-web-codegen v4.3.0 target="actix_web_codegen"}: cargo::core::compiler::fingerprint: fingerprint error for actix-web-codegen v4.3.0/Build/TargetInner { name_inferred: true, for_host: true, proc_macro: true, ..: lib_target("actix_web_codegen", ["proc-macro"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\actix-web-codegen-4.3.0\\src\\lib.rs", Edition2021) }
+   1.600025500s  INFO prepare_target{force=false package_id=actix-web-codegen v4.3.0 target="actix_web_codegen"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\actix-web-codegen-47ed3251ddce2a7c\lib-actix_web_codegen`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.600765100s  INFO prepare_target{force=false package_id=actix-router v0.5.4 target="actix_router"}: cargo::core::compiler::fingerprint: fingerprint error for actix-router v0.5.4/Build/TargetInner { ..: lib_target("actix_router", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\actix-router-0.5.4\\src\\lib.rs", Edition2021) }
+   1.600808300s  INFO prepare_target{force=false package_id=actix-router v0.5.4 target="actix_router"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\actix-router-08079c576a960479\lib-actix_router`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.602066200s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Build/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   1.602091800s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\serde-c94593e952f83683\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.604709300s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Build/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
+   1.604753600s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\serde_core-e03d13de4dcdc349\lib-serde_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.607635600s  INFO prepare_target{force=false package_id=cookie v0.16.2 target="cookie"}: cargo::core::compiler::fingerprint: fingerprint error for cookie v0.16.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cookie", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cookie-0.16.2\\src\\lib.rs", Edition2018) }
+   1.607697100s  INFO prepare_target{force=false package_id=cookie v0.16.2 target="cookie"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\cookie-121a3eac433e4f61\lib-cookie`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.609657200s  INFO prepare_target{force=false package_id=time v0.3.47 target="time"}: cargo::core::compiler::fingerprint: fingerprint error for time v0.3.47/Check { test: false }/TargetInner { benched: false, ..: lib_target("time", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\time-0.3.47\\src\\lib.rs", Edition2024) }
+   1.609692800s  INFO prepare_target{force=false package_id=time v0.3.47 target="time"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\time-ebb09f998c9f9d62\lib-time`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.610287300s  INFO prepare_target{force=false package_id=deranged v0.5.8 target="deranged"}: cargo::core::compiler::fingerprint: fingerprint error for deranged v0.5.8/Check { test: false }/TargetInner { ..: lib_target("deranged", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\deranged-0.5.8\\src\\lib.rs", Edition2021) }
+   1.610312000s  INFO prepare_target{force=false package_id=deranged v0.5.8 target="deranged"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\deranged-5ec11100761f7585\lib-deranged`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.625984700s  INFO prepare_target{force=false package_id=num-conv v0.2.0 target="num_conv"}: cargo::core::compiler::fingerprint: fingerprint error for num-conv v0.2.0/Check { test: false }/TargetInner { ..: lib_target("num_conv", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-conv-0.2.0\\src\\lib.rs", Edition2021) }
+   1.626035700s  INFO prepare_target{force=false package_id=num-conv v0.2.0 target="num_conv"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\num-conv-ad77d52af7d888f5\lib-num_conv`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.626975800s  INFO prepare_target{force=false package_id=time-core v0.1.8 target="time_core"}: cargo::core::compiler::fingerprint: fingerprint error for time-core v0.1.8/Check { test: false }/TargetInner { ..: lib_target("time_core", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\time-core-0.1.8\\src\\lib.rs", Edition2024) }
+   1.627009500s  INFO prepare_target{force=false package_id=time-core v0.1.8 target="time_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\time-core-806bd6ba5d5dfbb0\lib-time_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.628300900s  INFO prepare_target{force=false package_id=impl-more v0.1.9 target="impl_more"}: cargo::core::compiler::fingerprint: fingerprint error for impl-more v0.1.9/Check { test: false }/TargetInner { ..: lib_target("impl_more", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\impl-more-0.1.9\\src\\lib.rs", Edition2018) }
+   1.628380000s  INFO prepare_target{force=false package_id=impl-more v0.1.9 target="impl_more"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\impl-more-abd75b2df7e8007c\lib-impl_more`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.629407200s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\src\\lib.rs", Edition2021) }
+   1.629444600s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\serde_json-a40976d55e327639\lib-serde_json`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.631416900s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/Check { test: false }/TargetInner { ..: lib_target("zmij", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\src\\lib.rs", Edition2021) }
+   1.631457000s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\zmij-5c59b310b531b9d3\lib-zmij`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.633193100s  INFO prepare_target{force=false package_id=serde_urlencoded v0.7.1 target="serde_urlencoded"}: cargo::core::compiler::fingerprint: fingerprint error for serde_urlencoded v0.7.1/Check { test: false }/TargetInner { name_inferred: true, tested: false, ..: lib_target("serde_urlencoded", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_urlencoded-0.7.1\\src\\lib.rs", Edition2018) }
+   1.633227000s  INFO prepare_target{force=false package_id=serde_urlencoded v0.7.1 target="serde_urlencoded"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\serde_urlencoded-abe31261c716125e\lib-serde_urlencoded`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.633716500s  INFO prepare_target{force=false package_id=form_urlencoded v1.2.2 target="form_urlencoded"}: cargo::core::compiler::fingerprint: fingerprint error for form_urlencoded v1.2.2/Check { test: false }/TargetInner { tested: false, ..: lib_target("form_urlencoded", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\form_urlencoded-1.2.2\\src\\lib.rs", Edition2018) }
+   1.633738800s  INFO prepare_target{force=false package_id=form_urlencoded v1.2.2 target="form_urlencoded"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\form_urlencoded-066e204091319609\lib-form_urlencoded`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.634143800s  INFO prepare_target{force=false package_id=ryu v1.0.23 target="ryu"}: cargo::core::compiler::fingerprint: fingerprint error for ryu v1.0.23/Check { test: false }/TargetInner { ..: lib_target("ryu", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ryu-1.0.23\\src\\lib.rs", Edition2021) }
+   1.634166100s  INFO prepare_target{force=false package_id=ryu v1.0.23 target="ryu"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\ryu-861d2fe7305b91c3\lib-ryu`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.634591500s  INFO prepare_target{force=false package_id=url v2.5.8 target="url"}: cargo::core::compiler::fingerprint: fingerprint error for url v2.5.8/Check { test: false }/TargetInner { ..: lib_target("url", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\url-2.5.8\\src\\lib.rs", Edition2018) }
+   1.634612000s  INFO prepare_target{force=false package_id=url v2.5.8 target="url"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\url-642285945b82030c\lib-url`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.635088100s  INFO prepare_target{force=false package_id=idna v1.1.0 target="idna"}: cargo::core::compiler::fingerprint: fingerprint error for idna v1.1.0/Check { test: false }/TargetInner { doctest: false, ..: lib_target("idna", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\idna-1.1.0\\src\\lib.rs", Edition2018) }
+   1.635109500s  INFO prepare_target{force=false package_id=idna v1.1.0 target="idna"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\idna-df39f8120083188b\lib-idna`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.635878500s  INFO prepare_target{force=false package_id=idna_adapter v1.2.1 target="idna_adapter"}: cargo::core::compiler::fingerprint: fingerprint error for idna_adapter v1.2.1/Check { test: false }/TargetInner { ..: lib_target("idna_adapter", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\idna_adapter-1.2.1\\src\\lib.rs", Edition2021) }
+   1.635913100s  INFO prepare_target{force=false package_id=idna_adapter v1.2.1 target="idna_adapter"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\idna_adapter-61ffa2f3d043683d\lib-idna_adapter`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.636466200s  INFO prepare_target{force=false package_id=icu_normalizer v2.1.1 target="icu_normalizer"}: cargo::core::compiler::fingerprint: fingerprint error for icu_normalizer v2.1.1/Check { test: false }/TargetInner { ..: lib_target("icu_normalizer", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\icu_normalizer-2.1.1\\src\\lib.rs", Edition2021) }
+   1.636491600s  INFO prepare_target{force=false package_id=icu_normalizer v2.1.1 target="icu_normalizer"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\icu_normalizer-7c74db3d16e79874\lib-icu_normalizer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.637899400s  INFO prepare_target{force=false package_id=icu_collections v2.1.1 target="icu_collections"}: cargo::core::compiler::fingerprint: fingerprint error for icu_collections v2.1.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("icu_collections", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\icu_collections-2.1.1\\src\\lib.rs", Edition2021) }
+   1.637960300s  INFO prepare_target{force=false package_id=icu_collections v2.1.1 target="icu_collections"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\icu_collections-7dbe988a8c7caf42\lib-icu_collections`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.639340700s  INFO prepare_target{force=false package_id=potential_utf v0.1.4 target="potential_utf"}: cargo::core::compiler::fingerprint: fingerprint error for potential_utf v0.1.4/Check { test: false }/TargetInner { ..: lib_target("potential_utf", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\potential_utf-0.1.4\\src\\lib.rs", Edition2021) }
+   1.639379400s  INFO prepare_target{force=false package_id=potential_utf v0.1.4 target="potential_utf"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\potential_utf-8937a8e09be6d3d5\lib-potential_utf`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   1.640055700s  INFO prepare_target{force=false package_id=zerovec v0.11.5 target="zerovec"}: cargo::core::compiler::fingerprint: fingerprint error for zerovec v0.11.5/Check { test: false }/TargetInner { benched: false, ..: lib_target("zerovec", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerovec-0.11.5\\src\\lib.rs", Edition2021) }
+   1.640086600s  INFO prepare_target{force=false package_id=zerovec v0.11.5 target="zerovec"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\zerovec-64cd11fe3a33118e\lib-zerovec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   1.640864300s  INFO prepare_target{force=false package_id=yoke v0.8.1 target="yoke"}: cargo::core::compiler::fingerprint: fingerprint error for yoke v0.8.1/Check { test: false }/TargetInner { ..: lib_target("yoke", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\yoke-0.8.1\\src\\lib.rs", Edition2021) }
+   1.640893200s  INFO prepare_target{force=false package_id=yoke v0.8.1 target="yoke"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\yoke-5a2ae41718620abb\lib-yoke`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_libgit2_prerelease
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: <unknown>
+  26: git_midx_writer_dump
+  27: git_filter_source_repo
+  28: git_midx_writer_dump
+  29: BaseThreadInitThunk
+  30: RtlUserThreadStart
+   1.657325100s  INFO prepare_target{force=false package_id=zerofrom v0.1.6 target="zerofrom"}: cargo::core::compiler::fingerprint: fingerprint error for zerofrom v0.1.6/Check { test: false }/TargetInner { ..: lib_target("zerofrom", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerofrom-0.1.6\\src\\lib.rs", Edition2021) }
+   1.657372100s  INFO prepare_target{force=false package_id=zerofrom v0.1.6 target="zerofrom"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\zerofrom-432b854b85007bef\lib-zerofrom`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: git_libgit2_prerelease
+  23: <unknown>
+  24: <unknown>
+  25: <unknown>
+  26: <unknown>
+  27: git_midx_writer_dump
+  28: git_filter_source_repo
+  29: git_midx_writer_dump
+  30: BaseThreadInitThunk
+  31: RtlUserThreadStart
+   1.675435800s  INFO prepare_target{force=false package_id=icu_provider v2.1.1 target="icu_provider"}: cargo::core::compiler::fingerprint: fingerprint error for icu_provider v2.1.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("icu_provider", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\icu_provider-2.1.1\\src\\lib.rs", Edition2021) }
+   1.675480900s  INFO prepare_target{force=false package_id=icu_provider v2.1.1 target="icu_provider"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\icu_provider-c69bbc2bc5be2fc4\lib-icu_provider`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.676272000s  INFO prepare_target{force=false package_id=icu_locale_core v2.1.1 target="icu_locale_core"}: cargo::core::compiler::fingerprint: fingerprint error for icu_locale_core v2.1.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("icu_locale_core", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\icu_locale_core-2.1.1\\src\\lib.rs", Edition2021) }
+   1.676298400s  INFO prepare_target{force=false package_id=icu_locale_core v2.1.1 target="icu_locale_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\icu_locale_core-a233bf0e4257cc46\lib-icu_locale_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   1.694385800s  INFO prepare_target{force=false package_id=tinystr v0.8.2 target="tinystr"}: cargo::core::compiler::fingerprint: fingerprint error for tinystr v0.8.2/Check { test: false }/TargetInner { benched: false, ..: lib_target("tinystr", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tinystr-0.8.2\\src\\lib.rs", Edition2021) }
+   1.694430300s  INFO prepare_target{force=false package_id=tinystr v0.8.2 target="tinystr"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\tinystr-22c90183f71787e9\lib-tinystr`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   1.711778200s  INFO prepare_target{force=false package_id=zerotrie v0.2.3 target="zerotrie"}: cargo::core::compiler::fingerprint: fingerprint error for zerotrie v0.2.3/Check { test: false }/TargetInner { benched: false, ..: lib_target("zerotrie", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerotrie-0.2.3\\src\\lib.rs", Edition2021) }
+   1.711896300s  INFO prepare_target{force=false package_id=zerotrie v0.2.3 target="zerotrie"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\zerotrie-631f71da389c28b8\lib-zerotrie`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   1.713203900s  INFO prepare_target{force=false package_id=icu_properties v2.1.2 target="icu_properties"}: cargo::core::compiler::fingerprint: fingerprint error for icu_properties v2.1.2/Check { test: false }/TargetInner { ..: lib_target("icu_properties", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\icu_properties-2.1.2\\src\\lib.rs", Edition2021) }
+   1.713251300s  INFO prepare_target{force=false package_id=icu_properties v2.1.2 target="icu_properties"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\icu_properties-2fb6f6e46b692de1\lib-icu_properties`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.732291700s  INFO prepare_target{force=false package_id=utf8_iter v1.0.4 target="utf8_iter"}: cargo::core::compiler::fingerprint: fingerprint error for utf8_iter v1.0.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("utf8_iter", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\utf8_iter-1.0.4\\src\\lib.rs", Edition2021) }
+   1.732333400s  INFO prepare_target{force=false package_id=utf8_iter v1.0.4 target="utf8_iter"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\utf8_iter-ad445a2c233037c3\lib-utf8_iter`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.732880500s  INFO prepare_target{force=false package_id=chrono v0.4.44 target="chrono"}: cargo::core::compiler::fingerprint: fingerprint error for chrono v0.4.44/Check { test: false }/TargetInner { ..: lib_target("chrono", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\chrono-0.4.44\\src\\lib.rs", Edition2021) }
+   1.732904000s  INFO prepare_target{force=false package_id=chrono v0.4.44 target="chrono"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\chrono-40e9232638e9b75d\lib-chrono`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   1.733395000s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\hkris\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+   1.733419700s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\num-traits-7b9dee7088fa75d4\lib-num_traits`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.735176900s  INFO prepare_target{force=false package_id=werpx_engine_rust v0.1.0 (D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust) target="werpx_engine_rust"}: cargo::core::compiler::fingerprint: fingerprint error for werpx_engine_rust v0.1.0 (D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust)/Check { test: true }/TargetInner { name: "werpx_engine_rust", doc: true, ..: with_path("D:\\GitHub\\werpx-enterprise-os\\03_werpx_engine_rust\\src\\main.rs", Edition2021) }
+   1.735203200s  INFO prepare_target{force=false package_id=werpx_engine_rust v0.1.0 (D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust) target="werpx_engine_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\.fingerprint\werpx_engine_rust-5dc7bc9aeb538b1a\test-bin-werpx_engine_rust`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking once_cell v1.21.3
+    Checking serde_core v1.0.228
+    Checking futures-task v0.3.32
+    Checking crypto-common v0.1.7
+    Checking block-buffer v0.10.4
+    Checking zerofrom v0.1.6
+    Checking zstd-sys v2.0.16+zstd.1.5.7
+    Checking hashbrown v0.16.1
+    Checking equivalent v1.0.2
+    Checking simd-adler32 v0.3.8
+    Checking regex-syntax v0.8.10
+    Checking brotli-decompressor v5.0.0
+    Checking deranged v0.5.8
+    Checking rand_chacha v0.9.0
+    Checking actix-utils v3.0.1
+    Checking crc32fast v1.5.0
+    Checking zstd-safe v7.2.4
+    Checking windows-sys v0.52.0
+    Checking digest v0.10.7
+    Checking futures-util v0.3.32
+error: could not compile `once_cell` (lib) due to 376 previous errors
+warning: build failed, waiting for other jobs to finish...
+    Checking actix-rt v2.11.0
+    Checking miniz_oxide v0.8.9
+    Checking form_urlencoded v1.2.2
+    Checking yoke v0.8.1
+    Checking actix-service v2.0.3
+    Checking bytestring v1.5.0
+    Checking time-core v0.1.8
+    Checking utf8_iter v1.0.4
+    Checking cpufeatures v0.2.17
+    Checking indexmap v2.13.0
+    Checking num-conv v0.2.0
+    Checking bitflags v2.11.0
+    Checking zstd v0.13.3
+    Checking rand v0.9.2
+    Checking sha1 v0.10.6
+    Checking flate2 v1.1.9
+    Checking zerovec v0.11.5
+    Checking zerotrie v0.2.3
+    Checking brotli v8.0.2
+    Checking zmij v1.0.21
+    Checking derive_more v2.1.1
+    Checking httparse v1.10.1
+    Checking local-channel v0.1.5
+    Checking encoding_rs v0.8.35
+    Checking httpdate v1.0.3
+    Checking mime v0.3.17
+    Checking ryu v1.0.23
+    Checking base64 v0.22.1
+    Checking language-tags v0.3.2
+    Checking regex-lite v0.1.9
+    Checking socket2 v0.5.10
+    Checking foldhash v0.1.5
+    Checking impl-more v0.1.9
+    Checking num-traits v0.2.19
+    Checking time v0.3.47
+    Checking tinystr v0.8.2
+    Checking potential_utf v0.1.4
+    Checking regex-automata v0.4.14
+    Checking icu_collections v2.1.1
+    Checking icu_locale_core v2.1.1
+error: could not compile `serde_core` (lib) due to 1 previous error
+    Checking icu_provider v2.1.1
+error: could not compile `serde_core` (lib) due to 1 previous error
+    Checking icu_normalizer v2.1.1
+    Checking icu_properties v2.1.2
+    Checking cookie v0.16.2
+    Checking regex v1.12.3
+    Checking idna_adapter v1.2.1
+    Checking idna v1.1.0
+    Checking url v2.5.8

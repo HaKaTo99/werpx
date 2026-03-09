@@ -1,0 +1,11 @@
+D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\deps\convert_case-5d0b6b688a4fea24.d: C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\lib.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\boundary.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\case.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\converter.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\pattern.rs
+
+D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\deps\libconvert_case-5d0b6b688a4fea24.rlib: C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\lib.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\boundary.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\case.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\converter.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\pattern.rs
+
+D:\GitHub\werpx-enterprise-os\03_werpx_engine_rust\target\debug\deps\libconvert_case-5d0b6b688a4fea24.rmeta: C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\lib.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\boundary.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\case.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\converter.rs C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\pattern.rs
+
+C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\lib.rs:
+C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\boundary.rs:
+C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\case.rs:
+C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\converter.rs:
+C:\Users\hkris\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\convert_case-0.10.0\src\pattern.rs:

@@ -1,0 +1,149 @@
+version: "3.8"
+
+services:
+  # ==========================================
+  # 01. GATEWAY (Nginx / Traefik)
+  # ==========================================
+  gateway:
+    image: nginx:alpine
+    container_name: werpx_gateway
+    ports:
+      - "80:80"
+    volumes:
+      - ./01_werpx_gateway/conf.d:/etc/nginx/conf.d:ro
+    networks:
+      - werpx_network
+    depends_on:
+      - werpx-core
+      - werpx-engine
+      - werpx-exec
+    restart: always
+
+  # ==========================================
+  # 02. CORE ERP (ERPNext v16 / Frappe)
+  # ==========================================
+  werpx-core:
+    image: frappe/erpnext:v15.0.0-rc1 # Bisa di-update ke custom v16 image nanti
+    container_name: werpx_core_python
+    environment:
+      - DB_HOST=mariadb
+      - DB_PORT=3306
+      - DB_PASSWORD=${DB_PASSWORD:-WerpxSecurePass2026!}
+      - REDIS_CACHE=redis-cache:6379
+      - REDIS_QUEUE=redis-queue:6379
+      - REDIS_SOCKETIO=redis-socketio:6379
+    volumes:
+      - ./02_werpx_core_python/frappe-bench/sites:/home/frappe/frappe-bench/sites
+      - ./02_werpx_core_python/apps:/home/frappe/frappe-bench/apps
+    depends_on:
+      mariadb:
+        condition: service_healthy
+      redis-cache:
+        condition: service_started
+    networks:
+      - werpx_network
+    restart: always
+
+  # ==========================================
+  # 03. WERP X ENGINE (Rust)
+  # ==========================================
+  werpx-engine:
+    build:
+      context: ./03_werpx_engine_rust
+      dockerfile: Dockerfile
+    container_name: werpx_engine_rust
+    networks:
+      - werpx_network
+    restart: always
+
+  # ==========================================
+  # 04. EXECUTIVE MOBILE (Supabase / React)
+  # ==========================================
+  werpx-exec:
+    build:
+      context: ./04_werpx_exec_mobile
+      dockerfile: Dockerfile
+    container_name: werpx_exec_mobile
+    networks:
+      - werpx_network
+    restart: always
+
+  supabase-db:
+    image: supabase/postgres:15.1.0.117
+    container_name: werpx_supabase_db
+    environment:
+      - POSTGRES_PASSWORD=${SUPABASE_DB_PASSWORD:-SuperSecretSupabasePassw0rd}
+    volumes:
+      - ./06_werpx_infra_data/postgres_supabase:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - werpx_network
+    restart: always
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ==========================================
+  # 06. INFRA & DATABASE
+  # ==========================================
+  mariadb:
+    image: mariadb:10.6
+    container_name: werpx_mariadb
+    environment:
+      - MYSQL_ROOT_PASSWORD=${DB_PASSWORD:-WerpxSecurePass2026!}
+    volumes:
+      - ./06_werpx_infra_data/mariadb:/var/lib/mysql
+    networks:
+      - werpx_network
+    restart: always
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  postgres-audit:
+    image: postgres:15-alpine
+    container_name: werpx_postgres_audit
+    environment:
+      - POSTGRES_PASSWORD=${DB_PASSWORD:-WerpxSecurePass2026!}
+    volumes:
+      - ./06_werpx_infra_data/postgres_audit:/var/lib/postgresql/data
+    networks:
+      - werpx_network
+    restart: always
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis-cache:
+    image: redis:6.2-alpine
+    container_name: werpx_redis_cache
+    volumes:
+      - ./06_werpx_infra_data/redis_cache:/data
+    networks:
+      - werpx_network
+    restart: always
+
+  redis-queue:
+    image: redis:6.2-alpine
+    container_name: werpx_redis_queue
+    networks:
+      - werpx_network
+    restart: always
+
+  redis-socketio:
+    image: redis:6.2-alpine
+    container_name: werpx_redis_socketio
+    networks:
+      - werpx_network
+    restart: always
+
+networks:
+  werpx_network:
+    driver: bridge

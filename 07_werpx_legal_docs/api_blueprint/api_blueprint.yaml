@@ -1,0 +1,8 @@
+openapi: 3.0.0
+info:
+  title: WERP X Unified API
+  version: 1.0.0
+description: |
+  Spesifikasi API terpadu untuk integrasi antar modul (ERPNext, Rust Engine, Supabase, BizView, dsb) di ekosistem WERP X.
+
+# Tambahkan endpoint, security, dan skema sesuai kebutuhan integrasi.
