@@ -29,6 +29,12 @@ def send_to_forge(transaction_id, amount, remark, user):
             frappe.logger().info(f"[FORGE SYNC SUCCESS] {transaction_id} -> {rust_response.text}")
         else:
             frappe.logger().error(f"[FORGE SYNC FAILED] {transaction_id} -> HTTP {rust_response.status_code}: {rust_response.text}")
+            # [PHASE 6] Re-queue jika API merespon error tapi server on
+            frappe.enqueue('werpx_indonesia.tasks.send_to_forge', queue='long', transaction_id=transaction_id, amount=amount, remark=remark, user=user)
             
+    except requests.exceptions.Timeout:
+        frappe.log_error(f"Forge Engine Timeout. Retrying soon for {transaction_id}", "Forge Sync Timeout")
+        # [PHASE 6] Sovereign retry mechanism
+        frappe.enqueue('werpx_indonesia.tasks.send_to_forge', queue='long', transaction_id=transaction_id, amount=amount, remark=remark, user=user)
     except Exception as forge_err:
-        frappe.log_error(f"Failed to reach Forge Engine (Rust) for {transaction_id}:\n{str(forge_err)}", "Forge Sync Error")
+        frappe.log_error(f"Failed to reach Forge Engine (Rust) for {transaction_id}:\n{str(forge_err)}", "Forge Sync Critical Error")

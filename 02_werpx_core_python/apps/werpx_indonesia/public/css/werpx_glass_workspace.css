@@ -1,0 +1,62 @@
+/**
+ * WERP X Global CSS Injection
+ * Mengubah antarmuka ERPNext standar (Backend) agar seragam dengan estetika
+ * Glassmorphism premium dari SIMAPROX Executive Mobile.
+ */
+
+:root {
+    --werpx-primary: #8e44ad;
+    --werpx-secondary: #2980b9;
+    --werpx-bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+body[data-route="workspace"] {
+    background: var(--werpx-bg-gradient) !important;
+}
+
+/* Modifikasi Desktop Workspace Cards (Glassmorphism) */
+.widget.shortcut-widget-box,
+.widget.dashboard-widget-box,
+.widget.number-card-widget-box {
+    background: rgba(255, 255, 255, 0.45) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.widget.shortcut-widget-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.12) !important;
+    background: rgba(255, 255, 255, 0.65) !important;
+}
+
+/* Navbar / Top Bar Kustomisasi */
+.navbar {
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(20px) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Modal / Dialog Dialog (Glassmorphism) */
+.modal-content {
+    background: rgba(255, 255, 255, 0.85) !important;
+    backdrop-filter: blur(25px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    border-radius: 20px !important;
+}
+
+/* Menambahkan badge/indikasi aktif bahwa ini adalah versi WERP X OS */
+.navbar-brand::after {
+    content: "Enterprise OS";
+    font-size: 10px;
+    background: var(--werpx-primary);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin-left: 8px;
+    vertical-align: middle;
+    letter-spacing: 0.5px;
+}

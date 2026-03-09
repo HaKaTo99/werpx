@@ -1,0 +1,70 @@
+[
+    {
+        "doctype": "Workflow",
+        "workflow_name": "WERPX Leave Approval",
+        "document_type": "Leave Application",
+        "is_active": 1,
+        "override_status": 1,
+        "send_email_alert": 0,
+        "states": [
+            {
+                "state": "Draft",
+                "doc_status": 0,
+                "allow_edit": "System Manager",
+                "update_field": "",
+                "update_value": ""
+            },
+            {
+                "state": "Pending Approval",
+                "doc_status": 0,
+                "allow_edit": "System Manager",
+                "update_field": "",
+                "update_value": ""
+            },
+            {
+                "state": "Approved",
+                "doc_status": 1,
+                "allow_edit": "System Manager",
+                "update_field": "",
+                "update_value": ""
+            },
+            {
+                "state": "Rejected",
+                "doc_status": 2,
+                "allow_edit": "System Manager",
+                "update_field": "",
+                "update_value": ""
+            }
+        ],
+        "transitions": [
+            {
+                "state": "Draft",
+                "action": "Request Approval",
+                "next_state": "Pending Approval",
+                "allowed": "Employee",
+                "condition": ""
+            },
+            {
+                "state": "Pending Approval",
+                "action": "Approve",
+                "next_state": "Approved",
+                "allowed": "WERPX Project Manager",
+                "condition": ""
+            },
+            {
+                "state": "Pending Approval",
+                "action": "Reject",
+                "next_state": "Rejected",
+                "allowed": "WERPX Project Manager",
+                "condition": ""
+            },
+            {
+                "state": "Rejected",
+                "action": "Revise",
+                "next_state": "Draft",
+                "allowed": "Employee",
+                "condition": ""
+            }
+        ]
+    }
+]

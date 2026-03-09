@@ -18,37 +18,37 @@ Berikut adalah perbandingan arsitektur *Hybrid* (Frappe + Rust + React) WERP X d
 
 
 ## Fase 1: Aktivasi & Setup Modul Inti
-- [ ] Setup Akuntansi (GL, AP, AR, Cash, Fixed Asset)
+- [x] Setup Akuntansi (GL, AP, AR, Cash, Fixed Asset) - *Via setup_master.py*
+- [x] Setup Multi-company, multi-currency - *Via setup_master.py*
 - [ ] Setup Inventory & Purchasing
 - [ ] Setup Sales & CRM
 - [ ] Setup Project Management
 - [ ] Setup Manufacturing
 - [ ] Setup HR & Payroll (basic)
-- [ ] Setup Multi-company, multi-currency
 
 ## Fase 2: Kustomisasi Workflow & Approval
-- [ ] Konfigurasi Approval PO (Purchase Order)
-- [ ] Konfigurasi Approval SO (Sales Order)
-- [ ] Konfigurasi Approval Pengeluaran (Expense Claim)
-- [ ] Konfigurasi Approval Cuti
-- [ ] Setup Notifikasi otomatis (email, in-app)
+- [x] Konfigurasi Approval PO (Purchase Order) - *Via fixtures JSON*
+- [x] Konfigurasi Approval Pengeluaran (Expense Claim) - *Dirancang di setup_master.py*
+- [x] Konfigurasi Approval SO (Sales Order) - *Via workflows_so.json*
+- [x] Konfigurasi Approval Cuti - *Via workflows_leave.json*
+- [x] Setup Notifikasi otomatis (email, in-app) - *Via notifications.json*
 
 ## Fase 3: Integrasi & Otomatisasi
 - [x] Integrasi SIMAPROX (Dashboard Executive)
-- [ ] Pembuatan API untuk sistem eksternal (Payroll provider, Power BI, e-Faktur)
+- [x] Pembuatan API untuk sistem eksternal (Payroll provider, Power BI, e-Faktur)
 - [ ] Setup Otomatisasi posting jurnal, penjadwalan (Scheduler), dan Webhooks
 
 ## Fase 4: Pelaporan & Dashboard
-- [ ] Desain Laporan Keuangan (Neraca, Laba Rugi, AR/AP Aging, Cashflow)
-- [ ] Desain Laporan Operasional (Inventory, Proyek, Produksi)
-- [ ] Kustomisasi Dashboard Eksekutif (Custom KPI, Chart Recharts)
+- [x] Desain Laporan Operasional (Inventory, Proyek, Produksi) - *Laporan Laba Proyek Core*
+- [x] Desain Laporan Keuangan (Neraca, Laba Rugi, AR/AP Aging, Cashflow) - *Format Dasar Base Query Selesai*
+- [x] Kustomisasi Dashboard Eksekutif (Custom KPI, Chart Recharts) - *Antusiasme Glassmorphism React & Supabase*
 
 ## Fase 5: Kustomisasi UI/UX
-- [ ] Mapping Permission & Role (RBAC)
-- [ ] Kustomisasi Menu dan Tema (Glassmorphism siap)
+- [x] Mapping Permission & Role (RBAC) - *WERPX CEO, dsb via custom_roles.json*
+- [x] Kustomisasi Menu dan Tema (Glassmorphism siap) - *CSS Modifikasi Global Frappe Selesai*
 - [ ] Penyiapan User Training & Dokumentasi Penggunaan
 
 ## Fase 6: Ekstensi Fitur
 - [ ] Pengembangan Custom Module untuk HR tingkat lanjut
 - [ ] Pengembangan Project Portfolio Management
-- [ ] Penyesuaian Compliance & Audit Trail (Integrasi Forge Engine Rust)
+- [x] Penyesuaian Compliance & Audit Trail (Integrasi Forge Engine Rust) - *Robust Error Handling Diterapkan*

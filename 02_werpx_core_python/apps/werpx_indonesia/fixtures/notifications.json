@@ -1,0 +1,34 @@
+[
+    {
+        "doctype": "Notification",
+        "name": "WERPX Alert - PO Needed Approval",
+        "subject": "Persetujuan dibutuhkan: Purchase Order {{ doc.name }}",
+        "document_type": "Purchase Order",
+        "event": "Value Change",
+        "value_changed": "workflow_state",
+        "condition": "doc.workflow_state == 'Pending Approval'",
+        "channel": "System Notification",
+        "message": "<h4>Perhatian CEO WERP X</h4><p>Dokumen Purchase Order baru <b>{{ doc.name }}</b> dari {{ doc.supplier }} senilai Rp {{ doc.grand_total }} memerlukan persetujuan Anda segera.</p><p><a href='/app/purchase-order/{{ doc.name }}'>Klik di sini untuk meninjau dokumen</a></p>",
+        "recipients": [
+            {
+                "receiver_by_role": "WERPX CEO"
+            }
+        ]
+    },
+    {
+        "doctype": "Notification",
+        "name": "WERPX Alert - Leave Approval",
+        "subject": "Pengajuan Cuti: {{ doc.employee_name }}",
+        "document_type": "Leave Application",
+        "event": "Value Change",
+        "value_changed": "workflow_state",
+        "condition": "doc.workflow_state == 'Pending Approval'",
+        "channel": "System Notification",
+        "message": "<h4>Pengajuan Cuti</h4><p>Karyawan <b>{{ doc.employee_name }}</b> mengajukan cuti dari {{ doc.from_date }} hingga {{ doc.to_date }}. Harap tinjau pengajuan ini.</p>",
+        "recipients": [
+            {
+                "receiver_by_role": "WERPX Project Manager"
+            }
+        ]
+    }
+]
