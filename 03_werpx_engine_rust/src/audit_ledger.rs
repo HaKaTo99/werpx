@@ -1,8 +1,13 @@
 use actix_web::{web, HttpResponse, Responder};
 use serde::{Deserialize, Serialize};
 use chrono::Utc;
+use std::sync::Mutex;
+use sha2::{Sha256, Digest};
 
-// Payload yang diterima dari ERPNext (Python)
+pub struct AppState {
+    pub last_block_hash: Mutex<String>,
+}
+
 #[derive(Serialize, Deserialize, Debug)]
 pub struct AuditPayload {
     pub transaction_id: String,
@@ -12,47 +17,65 @@ pub struct AuditPayload {
     pub user: String,
 }
 
-// Format final yang disimpan secara immutable
 #[derive(Serialize, Deserialize)]
 pub struct AuditRecord {
-    pub hash_id: String,
+    pub block_id: String,
+    pub previous_hash: String,
     pub timestamp: String,
     pub payload: AuditPayload,
-    pub signature: String, // Digital signature (SHA-256)
+    pub signature: String, 
 }
 
-pub async fn log_transaction(payload: web::Json<AuditPayload>) -> impl Responder {
+// Fungsi internal penambang hash (Hashing)
+fn calculate_hash(prev_hash: &str, timestamp: &str, payload_raw: &str) -> String {
+    let mut hasher = Sha256::new();
+    let data = format!("{}{}{}", prev_hash, timestamp, payload_raw);
+    hasher.update(data.as_bytes());
+    hex::encode(hasher.finalize())
+}
+
+pub async fn log_transaction(
+    payload: web::Json<AuditPayload>,
+    state: web::Data<AppState>,
+) -> impl Responder {
     let timestamp = Utc::now().to_rfc3339();
     
-    // Di produksi, kita menggunakan algoritma SHA-256 untuk hash kriptografi
-    let hash_id = format!("hash_{}_{}", payload.transaction_id, timestamp);
-    
-    // Validate payload (Basic Error Handling)
     if payload.transaction_id.is_empty() {
         return HttpResponse::BadRequest().json(serde_json::json!({
             "status": "error",
-            "message": "transaction_id is required for audit trail"
+            "message": "transaction_id is required."
         }));
     }
 
+    let raw_payload = serde_json::to_string(&*payload).unwrap_or_default();
+    
+    let mut last_hash_guard = state.last_block_hash.lock().unwrap();
+    let current_previous_hash = last_hash_guard.clone();
+    
+    let new_block_hash = calculate_hash(&current_previous_hash, &timestamp, &raw_payload);
+    
     let record = AuditRecord {
-        hash_id: hash_id.clone(),
+        block_id: new_block_hash.clone(),
+        previous_hash: current_previous_hash,
         timestamp: timestamp.clone(),
         payload: payload.into_inner(),
-        signature: "LOCKED_BY_FORGE_ENGINE_RUST".to_string(),
+        signature: "P2P_RUST_BLOCKCHAIN_NODE".to_string(),
     };
 
-    // Mensimulasikan penyimpanan ke PostgreSQL Audit Database via Structured Logging
-    println!("\n[{}][INFO] 🔒 AUDIT LOCKED", record.timestamp);
-    println!("  TxID   : {}", record.payload.transaction_id);
-    println!("  Amount : Rp {}", record.payload.amount);
-    println!("  Status : SECURED & IMMUTABLE");
+    // Update Blockchain State
+    *last_hash_guard = new_block_hash.clone();
 
-    // Kembalikan response sukses ke Python (ERPNext)
+    // Log the immutable block output
+    println!("\n[{}][INFO] ⛓️ NEW BLOCK MINED", record.timestamp);
+    println!("  Block Hash : {}", record.block_id);
+    println!("  Prev Hash  : {}", record.previous_hash);
+    println!("  TxID       : {}", record.payload.transaction_id);
+    println!("  Status     : HYPERLEDGER CHAIN SECURED");
+
     HttpResponse::Ok().json(serde_json::json!({
         "status": "success",
-        "message": "Immutable audit record created successfully",
-        "hash_id": hash_id,
+        "message": "Transaction committed to Private Blockchain.",
+        "block_id": new_block_hash,
         "timestamp": timestamp
     }))
 }

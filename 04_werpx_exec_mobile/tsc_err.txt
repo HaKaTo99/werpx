@@ -1,0 +1,2 @@
+﻿src/components/Profit3DMap.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/components/Profit3DMap.tsx(10,15): error TS6133: 'state' is declared but its value is never read.

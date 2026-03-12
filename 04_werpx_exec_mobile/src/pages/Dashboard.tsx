@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../supabaseClient';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { Profit3DMap } from '../components/Profit3DMap';
 
 interface Project {
     id: string;
@@ -56,17 +56,6 @@ function Dashboard() {
             subscription.unsubscribe();
         };
     }, []);
-
-    // Data Dummy Untuk Demonstrasi jika DB Kosong
-    const chartData = projects.length > 0 ? projects.map(p => ({
-        name: p.name,
-        budget: p.budget,
-    })) : [
-        { name: 'PRJ-24-X1', budget: 500000000 },
-        { name: 'PRJ-24-X2', budget: 300000000 },
-        { name: 'PRJ-24-X3', budget: 750000000 },
-        { name: 'PRJ-24-Y1', budget: 200000000 },
-    ];
 
     return (
         <div style={{ padding: '2rem', fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif', background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', minHeight: '100vh' }}>
@@ -126,16 +115,7 @@ function Dashboard() {
                 <div style={{ background: 'rgba(255, 255, 255, 0.6)', backdropFilter: 'blur(12px)', padding: '1.5rem', borderRadius: '16px', boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.1)', border: '1px solid rgba(255,255,255,0.4)', height: '450px', display: 'flex', flexDirection: 'column' }}>
                     <h2 style={{ fontSize: '1.2rem', color: '#2c3e50', borderBottom: '2px solid rgba(0,0,0,0.05)', paddingBottom: '0.8rem', marginBottom: '1.5rem' }}>Visualisasi Alokasi Anggaran Produksi</h2>
                     <div style={{ flex: 1, minHeight: 0 }}>
-                        <ResponsiveContainer width="100%" height="100%">
-                            <LineChart data={chartData}>
-                                <XAxis dataKey="name" stroke="#7f8c8d" />
-                                <YAxis tickFormatter={(value) => `${value / 1000000}M`} stroke="#7f8c8d" />
-                                <CartesianGrid stroke="rgba(0,0,0,0.05)" vertical={false} />
-                                <Line type="monotone" dataKey="budget" name="Anggaran Proyek" stroke="#8e44ad" strokeWidth={4} dot={{ r: 6, fill: '#8e44ad', strokeWidth: 2, stroke: 'white' }} activeDot={{ r: 8, fill: '#2980b9' }} />
-                                <Tooltip formatter={(value: number) => `Rp ${value.toLocaleString('id-ID')}`} contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
-                                <Legend wrapperStyle={{ paddingTop: '20px' }} />
-                            </LineChart>
-                        </ResponsiveContainer>
+                        <Profit3DMap />
                     </div>
                 </div>
             </div>
