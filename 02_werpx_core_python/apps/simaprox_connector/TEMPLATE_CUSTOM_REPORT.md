@@ -1,22 +1,49 @@
-# TEMPLATE CUSTOM REPORT (ERPNext)
+# Template: Custom Report & Executive Dashboard WERP X
 
-## Contoh: Laporan Laba Rugi Proyek
+Panduan untuk membuat laporan khusus dan widget dashboard yang diproyeksikan ke SIMAPROX atau Workspace ERPNext. Gunakan referensi ini untuk membuat Standard Operating Procedure (SOP) pengerjaan laporan.
 
-1. Masuk ke **Accounting > Report > Profit and Loss Statement**
-2. Filter berdasarkan **Project** untuk melihat laba rugi per proyek.
-3. Untuk custom report:
-   - Masuk ke **Report > New Report**
-   - Pilih DocType: Journal Entry, Project, Sales Invoice, dsb.
-   - Tambahkan kolom: Project, Amount, Account, Date, dsb.
-   - Tambahkan filter: Project, Date Range, Status
-   - Simpan dan beri nama sesuai kebutuhan (misal: "Project Costing Summary")
+## 1. Konsep Laporan
+- **Nama Laporan:** (Misal: Analisis Laba Proyek By Region)
+- **Tipe Laporan:** Query Report / Script Report / Report Builder
+- **Modul:** Project / Accounts
+- **Target Pembaca:** CEO / General Manager
 
-## Contoh: Dashboard Eksekutif
-- Masuk ke **Dashboard > New Dashboard**
-- Tambahkan chart: Revenue, Expense, Outstanding AR/AP, Inventory Value, dsb.
+## 2. Filter Laporan (Filters)
+Parameter yang bisa diubah oleh pengguna saat melihat laporan (interaktif).
 
----
+| Label | Fieldname | Fieldtype | Mandatory | Default |
+|---|---|---|---|---|
+| Company | company | Link (Company) | Yes | (User default) |
+| Project | project | Link (Project) | No | - |
+| From Date | from_date | Date | Yes | First day of month |
+| To Date | to_date | Date | Yes | Today |
 
-## Catatan
-- Template ini bisa dikembangkan untuk laporan lain (Inventory, AR/AP Aging, Cashflow, dsb).
-- Simpan dokumentasi report di folder ini untuk referensi tim.
+## 3. Struktur Kolom (Columns)
+Output data yang ditampilkan kepada Eksekutif (harus efisien dan _insightful_).
+
+| Kolom | Tipe Data | Lebar (px) | Keterangan |
+|---|---|---|---|
+| Nama Proyek | Link (Project) | 200 | Identifier Utama |
+| Budget (IDR) | Currency | 150 | Alokasi dari BoQ |
+| Realisasi (IDR) | Currency | 150 | Pengeluaran Aktual |
+| Variance | Currency | 150 | (Budget - Realisasi) |
+| Margin (%) | Percent | 100 | ROI Proyek |
+
+## 4. SQL Query (Jika menggunakan Query Report)
+```sql
+-- Contoh Script Dasar yang diinjeksi melalui antarmuka
+SELECT 
+    name as "Project:Link/Project:200",
+    estimated_costing as "Budget:Currency:150",
+    total_costing_amount as "Realisasi:Currency:150",
+    (estimated_costing - total_costing_amount) as "Variance:Currency:150"
+FROM 
+    `tabProject`
+WHERE 
+    company = %(company)s 
+    AND status = 'Open';
+```
+
+## 5. Menampilkan di Executive Dashboard
+1. **Untuk Internal WERP X (Core ERP):** Simpan Report di dalam WERP X, lalu masuk ke **Workspace** yang dituju dan tambahkan tipe **Dashboard Chart** atau **Report**.
+2. **Untuk Eksternal CEO View (React / SIMAPROX):** Buat API endpoint khusus di `api.py` untuk membungkus hasil Query ini sehingga dapat di-konsumsi (fetch) oleh antarmuka SIMAPROX (di dalam `04_werpx_exec_mobile`).

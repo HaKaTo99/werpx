@@ -1,6 +1,6 @@
 # WERP X Enterprise OS: User Training Manual
 
-Dokumen ini disusun sebagai wujud kepatuhan terhadap standar implementasi ERP kelas-Enterprise (Setara ISO/Oracle EBS) pada Fase 5.
+Dokumen ini disusun sebagai wujud kepatuhan terhadap standar implementasi ERP kelas-Enterprise (Setara ISO/Oracle EBS). Tata cara kerja (SOP) ini mengawal operasional dari Fase 5 hingga Visi Kedaulatan Digital di Fase 10+ (`STRATEGIC_MASTERPLAN.md`).
 
 ## 1. Pengenalan Ekosistem WERP X
 WERP X berbeda dari ERP biasa karena menerapkan konsep **Hybrid Data Sovereignty**.

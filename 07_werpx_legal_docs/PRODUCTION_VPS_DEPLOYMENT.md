@@ -1,6 +1,6 @@
 # WERP X Enterprise OS: Production Cloud Deployment Runbook
 
-Dokumen ini adalah **SOP Resmi (Standard Operating Procedure)** bagi tim DevOps atau IT Administrator untuk mengawal peluncuran (Go-Live) WERP X dari *localhost* menuju ke **Production Server (Internet Publik)** dengan standar keamanan *Enterprise* (SSL, Firewall, Reverse Proxy).
+Dokumen ini adalah **SOP Resmi (Standard Operating Procedure)** bagi tim DevOps atau IT Administrator untuk mengawal peluncuran (Go-Live) WERP X menuju **Production Server (Internet Publik)**. Penerapan panduan ini merupakan syarat mutlak agar arsitektur berjalan prima sesuai peta jalan *Masterplan 10-Fase* (`STRATEGIC_MASTERPLAN.md`).
 
 ---
 

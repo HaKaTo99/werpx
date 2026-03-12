@@ -8,7 +8,7 @@ Dokumen ini mendefinisikan dan memetakan arsitektur fungsional perangkat lunak *
 Sebagai sebuah ekosistem ERP, WERP X secara *native* mendukung kelancaran *Project Management* melalui tata kelola area pengetahuan (Knowledge Areas) berikut:
 
 ### A. Project Integration & Scope Management (Integrasi & Ruang Lingkup)
-- **Fungsionalitas WERP X:** Seluruh batas implementasi perangkat lunak (Scope) dideklarasikan mutlak pada file `ROADMAP_WERPX.md`. Perubahan ruang lingkup (*Change Control*) dikelola secara terpusat melalui Git Versioning (Commits).
+- **Fungsionalitas WERP X:** Seluruh batas implementasi perangkat lunak (Scope) dari Fase 1 hingga Fase 10+ dideklarasikan mutlak pada file `ROADMAP_WERPX.md` dan Rencana Induk Makro di `STRATEGIC_MASTERPLAN.md`. Perubahan ruang lingkup (*Change Control*) dikelola secara terpusat melalui Git Versioning (Commits).
 - **Bagi Pengguna:** Modul *Project* terintegrasi langsung dengan Pembelian (Purchasing) dan Penjualan (Sales) memastikan seluruh sumber daya terkait proyek terpusat.
 
 ### B. Project Schedule & Cost Management (Jadwal & Biaya)

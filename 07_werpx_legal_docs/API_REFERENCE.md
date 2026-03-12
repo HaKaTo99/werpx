@@ -1,6 +1,6 @@
 # Referensi Eksternal API WERP X (Developer Guide)
 
-Panduan ini dibuat bagi **Software Developer dari Pihak Ketiga** (misalnya pengembang Web Toko Online, Aplikasi Absensi Sidik Jari Karyawan, dsb) yang ingin menyuntikkan, meminta, atau menyinkronisasi data dengan jantung WERP X.
+Panduan ini dibuat bagi **Software Developer dari Pihak Ketiga** (misalnya pengembang Web Toko Online, Aplikasi Absensi Sidik Jari Karyawan, dsb) yang ingin menyuntikkan, meminta, atau menyinkronisasi data dengan jantung WERP X. Referensi teknis ini merupakan turunan dari Pilar Integrasi Ekosistem Eksternal pada `STRATEGIC_MASTERPLAN.md`.
 
 Frappe Framework (Inti WERP X) sudah secara ajaib (*Native*) membuatkan API REST untuk setiap dokumen yang Anda ciptakan. Anda tidak perlu repot membuat routing.
 

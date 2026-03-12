@@ -1,76 +1,80 @@
+# Template: Workflow Approval WERP X
 
-# 📋 IMPLEMENTASI WORKFLOW APPROVAL ERPNext (WERP X) — SIAP PAKAI
+Gunakan template ini sebagai panduan untuk merancang alur persetujuan (Workflow) pada dokumen di ERPNext (WERP X Core).
 
-## 1. Aktivasi Workflow Approval untuk Semua Dokumen Penting
+## 1. Identifikasi Dokumen (DocType)
+- **Nama Dokumen:** (Misal: Purchase Order, Expense Claim)
+- **Kondisi Aktif (Active):** Yes / No
 
-### a. Purchase Order (PO)
-- **Document Type**: Purchase Order
-- **States**: Draft → Waiting Approval → Approved → Rejected
-- **Transitions**: 
-  - Draft → Waiting Approval (User submit)
-  - Waiting Approval → Approved (Manager approve)
-  - Waiting Approval → Rejected (Manager reject)
-- **Permissions**: 
-  - User: Submit PO
-  - Manager: Approve/Reject
-- **Notifikasi**: Aktifkan email/in-app notification
+## 2. Status Dokumen (Workflow States)
+Tentukan status-status yang dilalui dokumen dari awal sampai akhir. Pilihan yang baik biasanya melibatkan "Draft", "Pending", "Approved", dan "Rejected".
 
-### b. Sales Order (SO)
-- **Document Type**: Sales Order
-- **States**: Draft → Waiting Approval → Approved → Rejected
-- **Transitions**: 
-  - Draft → Waiting Approval (User submit)
-  - Waiting Approval → Approved (Manager approve)
-  - Waiting Approval → Rejected (Manager reject)
-- **Permissions**: 
-  - User: Submit SO
-  - Manager: Approve/Reject
+| State Name | Doc Status | Update Field | Is Optional |
+|---|---|---|---|
+| Draft | 0 (Saved) | - | No |
+| Pending Approval | 0 (Saved) | - | No |
+| Approved | 1 (Submitted) | approved_by | No |
+| Rejected | 2 (Cancelled) | rejected_by | No |
 
-### c. Journal Entry (Pengeluaran Proyek)
-- **Document Type**: Journal Entry
-- **States**: Draft → Waiting Approval → Approved → Rejected
-- **Transitions**: 
-  - Draft → Waiting Approval (User submit)
-  - Waiting Approval → Approved (Finance approve)
-  - Waiting Approval → Rejected (Finance reject)
-- **Permissions**: 
-  - User: Submit
-  - Finance: Approve/Reject
+## 3. Alur Transisi (Workflow Transition Rules)
+Tentukan siapa yang berhak mengubah status, dan dari status apa ke status apa. Anda bisa membuat Custom Role di ERPNext.
 
-### d. Expense Claim, Leave Application, Material Request, dsb.
-- Ulangi pola di atas untuk dokumen lain sesuai kebutuhan bisnis.
+| State | Action | Next State | Allowed Role | Condition |
+|---|---|---|---|---|
+| Draft | Request Approval | Pending Approval | Employee / Project Manager | `doc.grand_total > 0` |
+| Pending Approval | Approve | Approved | General Manager / CEO | - |
+| Pending Approval | Reject | Rejected | General Manager / CEO | - |
+| Rejected | Revise | Draft | Employee / Project Manager | - |
 
----
+## 4. Instruksi Implementasi di ERPNext
+1. Cari di menu (Awesome Bar): **Workflow List** -> Klik *Add Workflow*.
+2. Masukkan **DocType** yang dituju.
+3. Centang **Is Active**.
+4. Isi tabel **States** sesuai panduan pada poin 2 di atas.
+5. Isi tabel **Transitions** sesuai panduan pada poin 3 di atas.
+6. Simpan (Save). Workflow akan langsung aktif digunakan tanpa perlu me-restart server.
 
-## 2. Cara Membuat Workflow di ERPNext
-1. Login sebagai Administrator.
-2. Buka **Settings > Workflow**.
-3. Klik **New**.
-4. Pilih **Document Type** (misal: Purchase Order).
-5. Tambahkan **States** dan **Transitions** sesuai template di atas.
-6. Atur **Permissions** dan **Notifikasi**.
-7. Simpan dan aktifkan workflow.
+## 5. Script API Integrasi (Auto-Approve via React/SIMAPROX)
+Jika persetujuan ingin dilakukan dari sistem eksternal (misalnya tombol "Setujui" di web React SIMAPROX CEO), gunakan *endpoint* bawaan ERPNext ini atau buat _custom whitelist method_ seperti ini di `api.py`:
 
----
+```python
+import frappe
 
-## 3. Integrasi dengan SIMAPROX/API
-- Untuk approval otomatis via API, gunakan endpoint ERPNext untuk update status dokumen.
-- Pastikan integrasi mengikuti aturan workflow (misal: hanya Manager/Finance yang bisa approve).
-
----
-
-## 4. Dokumentasi & Training
-- Simpan semua workflow di TEMPLATE_WORKFLOW_APPROVAL.md.
-- Lakukan training user dan dokumentasikan SOP approval.
-
----
-
-## 5. Checklist Implementasi (ROADMAP_WERPX.md)
-- [x] Workflow approval PO, SO, pengeluaran, cuti, dsb sudah aktif.
-- [x] Notifikasi berjalan.
-- [x] Integrasi API siap.
-- [x] User sudah training.
-
----
-
-**Dengan mengikuti langkah di atas, workflow approval di WERP X akan siap digunakan secara menyeluruh, sesuai roadmap dan best practice enterprise. Jika ingin contoh script API, template workflow lain, atau butuh bantuan setup langsung, silakan instruksikan detailnya!**
+@frappe.whitelist()
+def approve_document(doctype, docname, action="Approve"):
+    """
+    Endpoint untuk mengeksekusi Workflow Action dari Web/Aplikasi Luar.
+    action: bisa 'Approve', 'Reject', 'Request Approval', dll sesuai nama Transisi (Tabel 3).
+    """
+    try:
+        doc = frappe.get_doc(doctype, docname)
+        
+        # Mengecek apakah user memiliki akses
+        frappe.has_permission(doc=doc, throw=True)
+        
+        # Memerintahkan modul Workflow ERPNext secara programatik
+        from frappe.model.workflow import apply_workflow
+        apply_workflow(doc, action)
+        
+        return {"status": "success", "message": f"{doctype} {docname} berhasil di-{action}"}
+        
+    except Exception as e:
+        frappe.log_error(frappe.get_traceback(), "Workflow Approval API Error")
+        return {"status": "error", "message": str(e)}
+```
+*Contoh Pemanggilan dari React (SIMAPROX):*
+```javascript
+// POST /api/method/werpx_indonesia.api.approve_document
+const response = await fetch("https://api.werpx.id/api/method/werpx_indonesia.api.approve_document", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+        "Authorization": "token <API_KEY>:<API_SECRET>"
+    },
+    body: JSON.stringify({
+        doctype: "Purchase Order",
+        docname: "PUR-ORD-2026-0001",
+        action: "Approve"
+    })
+});
+```

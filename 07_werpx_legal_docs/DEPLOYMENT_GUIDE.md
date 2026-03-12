@@ -1,6 +1,6 @@
 # WERP X Enterprise OS: Panduan Lengkap Instalasi & Deployment
 
-Selamat datang tim IT / SysAdmin! Dokumen ini dirancang **sangat ramah pemula**. Anda akan dibimbing selangkah demi selangkah tentang cara menghidupkan ekosistem perangkat lunak tingkat *Enterprise* (WERP X).
+Selamat datang tim IT / SysAdmin! Dokumen ini dirancang **sangat ramah pemula**. Anda akan dibimbing selangkah demi selangkah tentang cara menghidupkan ekosistem perangkat lunak tingkat *Enterprise* (WERP X), yang menjadi fondasi krusial bagi pencapaian implemententasi Visi Fase 1 hingga Fase 10+ (`STRATEGIC_MASTERPLAN.md`).
 
 Karena WERP X ini canggih dan menggunakan 3 mesin yang berbeda (Python, React, dan Rust), pahami dulu konsep di bawah ini sebelum kita mulai instalasi:
 
