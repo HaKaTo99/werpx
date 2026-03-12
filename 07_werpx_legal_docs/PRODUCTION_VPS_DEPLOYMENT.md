@@ -158,4 +158,5 @@ Kini seluruh staf di perusahaan Anda (Cabang Sabang sampai Merauke) dapat mengak
 *   **Dasbor C-Level:** `https://ceo.perusahaananda.com` (Ditujukan ke IP Port 3000 Node React kita)
 
 **Catatan Akhir untuk SysAdmin:**
-Lakukan operasi *Backup Data* seminggu sekali. Cukup dengan menekan `docker exec -it werpx_core_python bench --site all backup`. Semua nyawa perusahaan akan selamat sentosa!
+1. Lakukan operasi *Backup Data* seminggu sekali. Cukup dengan menekan `docker exec -it werpx_core_python bench --site all backup`. Semua nyawa perusahaan akan selamat sentosa!
+2. Jika Direksi Anda meminta grafik *Forecasting/Trend Analysis* kompleks, Anda berwewenang menyalakan Lapisan **Intelijen Bisnis (Metabase) Fase 4** sesuai instruksi pada [05_werpx_bizview/README.md](../05_werpx_bizview/README.md). Gunakan minimal VPS berspesifikasi 8GB RAM untuk mengaktifkannya.

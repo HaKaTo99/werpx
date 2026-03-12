@@ -62,6 +62,13 @@ Kita harus menghidupkan "gembok digital" aplikasi ini. Folder ini ada di `03_wer
 
 ---
 
+## TAHAP EKSKLUSIF: MENGAKSES BISNIS INTELIJEN / METABASE (Fase 4)
+BizView atau lapisan analitik WERP X menggunakan *Metabase/Streamlit* dan terletak pada modul `05_werpx_bizview`. 
+Alat analitik data tingkat lanjut *Big Data* ini **dikunci/dinonaktifkan** demi berhemat Memory (RAM) Cloud Server.
+Jika perusahaan siap memproses Data Prediktif dan Arus Kas, harap ikuti instruksi pengaktifannya di [Panduan Aktivasi Metabase BizView](../05_werpx_bizview/README.md).
+
+---
+
 ## TAHAP 3: Menjalankan Dashboard Eksekutif (React)
 
 Ini adalah antarmuka indah yang khusus disajikan bagi level VIP perusahaan (Dashboard SIMAPROX).
