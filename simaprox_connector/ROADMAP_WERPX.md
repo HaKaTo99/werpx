@@ -65,10 +65,11 @@ Berikut adalah perbandingan arsitektur *Hybrid* (Frappe + Rust + React) WERP X d
 
 Keseluruhan literatur teknis, operasional, dan manajerial dari ekosistem WERP X Enterprise OS didokumentasikan sedemikian rupa melalui berkas `.md` terkait yang menyatu secara harmonis dengan Roadmap ini. Silakan merujuk pada tautan dokumen spesifik di bawah ini:
 
-### A. Panduan Standarisasi (Template)
-Dokumen ini melandasi cara teknis kustomisasi WERP X di awal:
-1. **[Template Konfigurasi Workflow Asinkron](./TEMPLATE_WORKFLOW_APPROVAL.md)**
-2. **[Template Pembuatan Custom Report SQL](./TEMPLATE_CUSTOM_REPORT.md)**
+### A. Panduan Standarisasi & Strategi Makro
+Dokumen ini melandasi cara teknis kustomisasi dan analisis bisnis WERP X di awal:
+1. **[Rencana Induk Strategis WERP X (Fase 1-10+)](./STRATEGIC_MASTERPLAN.md)**: Analisis komprehensif setiap pilar arsitektur, potensi, kompleksitas, dan skor prioritas.
+2. **[Template Konfigurasi Workflow Asinkron](./TEMPLATE_WORKFLOW_APPROVAL.md)**
+3. **[Template Pembuatan Custom Report SQL](./TEMPLATE_CUSTOM_REPORT.md)**
 
 ### B. Instruksi Implementasi & IT (Deployment)
 Digunakan oleh tim teknisi *Sysadmin Software Engineer*:
