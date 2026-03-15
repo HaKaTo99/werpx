@@ -57,6 +57,37 @@ Inilah lapisan "Bunker" pertahanan data WERP X:
 
 ---
 
+## 5. Daftar Fitur Unggulan WERP X
+
+### 📦 5.1. WERP X Core (Powered by ERPNext v15)
+*   **Keuangan & Akuntansi:** Buku besar otomatis, manajemen piutang/hutang, dan laporan laba rugi real-time.
+*   **Manajemen Stok:** Pelacakan inventaris multi-gudang dengan metode FIFO/Moving Average.
+*   **Pembelian & Penjualan:** Siklus lengkap mulai dari penawaran harga hingga faktur otomatis.
+*   **Manajemen Proyek:** Pelacakan tugas, biaya proyek, dan efisiensi sumber daya.
+
+### 🇮🇩 5.2. Modul Lokalisasi Indonesia (`werpx_indonesia`)
+*   **Accounting PSAK:** Chart of Accounts (CoA) yang disesuaikan dengan standar akuntansi Indonesia.
+*   **Tax Indonesia Engine:** Perhitungan otomatis **PPN** dan **PPh** (21, 23, 4 ayat 2).
+*   **Payroll TER Ready:** Kalkulasi gaji otomatis sesuai aturan Pajak TER terbaru.
+*   **BPJS Integrator:** Perhitungan otomatis iuran BPJS Kesehatan dan Ketenagakerjaan.
+*   **Workflow Lokal:** Alur persetujuan (approval) berjenjang khas organisasi di Indonesia.
+
+### 🛡️ 5.3. Forge Engine & Security (Powered by Rust)
+*   **Immutable Transaction Log:** Pencatatan setiap transaksi krusial ke dalam ledger yang tidak bisa diubah (*ReadOnly Logs*).
+*   **SHA-256 Security:** Keamanan log menggunakan standar enkripsi global.
+*   **Isolated Audit Database:** Memisahkan data transaksi dengan data audit untuk mencegah akses tidak sah.
+*   **Hyper-Performance API:** Jalur transmisi data berkecepatan tinggi untuk integrasi sistem eksternal.
+
+### 📊 5.4. SIMAPROX Executive Interface
+*   **CEO Global Dashboard:** Pantauan KPI perusahaan (Omzet, Profit, Cashflow) secara instan.
+*   **Real-time Analytics:** Sinkronisasi data tanpa perlu *refresh* halaman.
+*   **Visual Premium:** Antarmuka modern dengan gaya *Glassmorphism* yang elegan dan eksklusif.
+*   **Mobile-First Design:** Akses penuh seluruh metrik penting langsung dari smartphone Anda.
+
+---
+
+## 8. Mengapa Perusahaan Anda Memerlukan WERP X?
+
 1.  **Anti-Manipulasi:** Menghilangkan risiko "orang dalam" melakukan perubahan data keuangan secara ilegal.
 2.  **Kedaulatan Data:** Seluruh sistem berjalan di infrastruktur mandiri Anda, menjamin kerahasiaan sesuai UU Pelindungan Data Pribadi (PDP).
 3.  **Efisiensi Pajak:** Otomatisasi perhitungan pajak Indonesia yang kompleks, mengurangi risiko denda administratif.
