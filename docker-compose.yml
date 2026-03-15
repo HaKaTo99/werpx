@@ -11,6 +11,7 @@ services:
       - "80:80"
     volumes:
       - ./01_werpx_gateway/conf.d:/etc/nginx/conf.d:ro
+      - werpx_assets:/usr/share/nginx/html/assets:ro
     networks:
       - werpx_network
     depends_on:
@@ -35,9 +36,9 @@ services:
       - REDIS_CACHE=redis-cache:6379
       - REDIS_QUEUE=redis-queue:6379
       - REDIS_SOCKETIO=redis-socketio:6379
-    # volumes:
-    #   - ./02_werpx_core_python/frappe-bench/sites:/home/frappe/frappe-bench/sites
-    #   - ./02_werpx_core_python/apps:/home/frappe/frappe-bench/apps
+    volumes:
+      - ./02_werpx_core_python/frappe-bench/sites:/home/frappe/frappe-bench/sites
+      - werpx_assets:/home/frappe/frappe-bench/sites/assets
     depends_on:
       mariadb:
         condition: service_healthy
@@ -95,6 +96,10 @@ services:
   mariadb:
     image: mariadb:10.6
     container_name: werpx_mariadb
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --skip-character-set-client-handshake
     environment:
       - MYSQL_ROOT_PASSWORD=${DB_PASSWORD:-WerpxSecurePass2026!}
     volumes:
@@ -103,7 +108,7 @@ services:
       - werpx_network
     restart: always
     healthcheck:
-      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      test: [ "CMD-SHELL", "mysqladmin ping -h localhost -uroot -p$$MYSQL_ROOT_PASSWORD" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -150,3 +155,6 @@ services:
 networks:
   werpx_network:
     driver: bridge
+
+volumes:
+  werpx_assets:

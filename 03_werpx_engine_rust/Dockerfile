@@ -1,7 +1,7 @@
 # ===============================================
 # Forge Engine (Rust) High-Stability Dockerfile
 # ===============================================
-FROM rust:1.83-slim as builder
+FROM rust:latest as builder
 
 WORKDIR /usr/src/werpx_engine_rust
 COPY . .
