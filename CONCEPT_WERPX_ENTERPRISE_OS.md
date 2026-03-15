@@ -41,7 +41,21 @@ Lapis antarmuka yang dirancang khusus untuk pemilik perusahaan dan jajaran Direk
 
 ---
 
-## 5. Mengapa Perusahaan Anda Memerlukan WERP X?
+## 6. Deep Dive: WerpX Indonesia (Local Wisdom)
+Modul ini adalah "Jiwa" dari kedaulatan operasional di wilayah Indonesia:
+*   **Automated Payroll Engines:** Menginjeksi logika pada dokumen *Salary Slip* untuk perhitungan otomatis **PPh 21** (sesuai aturan TER terbaru) dan iuran **BPJS Kesehatan/Ketenagakerjaan**.
+*   **Workflow Orchestration:** Dilengkapi dengan *Fixtures* alur kerja (Workflow) yang mencerminkan pola birokrasi perusahaan Indonesia (Approval berjenjang).
+*   **Visual Aesthetics:** Menggunakan *Glassmorphism Injected CSS* yang memberikan tampilan modern transparan pada ruang kerja admin.
+*   **Audit Reconciliation:** Scheduler harian yang memastikan data operasional di Frappe selalu sinkron dengan jaminan keamanan di Forge Engine.
+
+## 7. Deep Dive: Forge Engine Rust (Immutable Ledger)
+Inilah lapisan "Bunker" pertahanan data WERP X:
+*   **Blockchain-Style Hashing:** Setiap transaksi keuangan diberikan sidik jari digital unik menggunakan algoritma **SHA-256**.
+*   **Chaining Mechanism:** Blok data transaksi saat ini selalu merujuk pada *Hash* blok sebelumnya. Jika satu angka diubah di masa lalu, seluruh rantai audit akan patah secara otomatis.
+*   **Asynchronous High Performance:** Dibangun di atas *Actix-web Framework*, mampu memproses ribuan permintaan log secara asinkron tanpa memperlambat aplikasi utama.
+*   **Audit Payload Integrity:** Menyimpan detail *User*, *Transaction ID*, *Amount*, dan *Source Module* dalam format terenkripsi yang siap diaudit kapan saja.
+
+---
 
 1.  **Anti-Manipulasi:** Menghilangkan risiko "orang dalam" melakukan perubahan data keuangan secara ilegal.
 2.  **Kedaulatan Data:** Seluruh sistem berjalan di infrastruktur mandiri Anda, menjamin kerahasiaan sesuai UU Pelindungan Data Pribadi (PDP).
