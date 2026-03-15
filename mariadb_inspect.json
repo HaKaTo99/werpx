@@ -1,0 +1,303 @@
+﻿[
+    {
+        "Id": "f0eb4e07cf070628399d2c805aaab5f6e5b4b2cd7e9c3fa190823f60bc71371e",
+        "Created": "2026-03-09T21:45:30.175397264Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "mariadbd"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 633,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-03-12T07:19:30.652816059Z",
+            "FinishedAt": "2026-03-12T07:19:27.802991773Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2026-03-12T07:58:34.05779567Z",
+                        "End": "2026-03-12T07:58:34.114132151Z",
+                        "ExitCode": 0,
+                        "Output": "\u0007mysqladmin: connect to server at 'localhost' failed\nerror: 'Access denied for user 'root'@'localhost' (using password: NO)'\n"
+                    },
+                    {
+                        "Start": "2026-03-12T07:58:44.115509057Z",
+                        "End": "2026-03-12T07:58:44.161132775Z",
+                        "ExitCode": 0,
+                        "Output": "\u0007mysqladmin: connect to server at 'localhost' failed\nerror: 'Access denied for user 'root'@'localhost' (using password: NO)'\n"
+                    },
+                    {
+                        "Start": "2026-03-12T07:58:54.162327235Z",
+                        "End": "2026-03-12T07:58:54.206398896Z",
+                        "ExitCode": 0,
+                        "Output": "\u0007mysqladmin: connect to server at 'localhost' failed\nerror: 'Access denied for user 'root'@'localhost' (using password: NO)'\n"
+                    },
+                    {
+                        "Start": "2026-03-12T07:59:04.204869447Z",
+                        "End": "2026-03-12T07:59:04.254905705Z",
+                        "ExitCode": 0,
+                        "Output": "\u0007mysqladmin: connect to server at 'localhost' failed\nerror: 'Access denied for user 'root'@'localhost' (using password: NO)'\n"
+                    },
+                    {
+                        "Start": "2026-03-12T07:59:14.255703082Z",
+                        "End": "2026-03-12T07:59:14.30216934Z",
+                        "ExitCode": 0,
+                        "Output": "\u0007mysqladmin: connect to server at 'localhost' failed\nerror: 'Access denied for user 'root'@'localhost' (using password: NO)'\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:eb40c69647cc5e34729046e362adba3062bead757f2cc80a84baa8e23db6e664",
+        "ResolvConfPath": "/var/lib/docker/containers/f0eb4e07cf070628399d2c805aaab5f6e5b4b2cd7e9c3fa190823f60bc71371e/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/f0eb4e07cf070628399d2c805aaab5f6e5b4b2cd7e9c3fa190823f60bc71371e/hostname",
+        "HostsPath": "/var/lib/docker/containers/f0eb4e07cf070628399d2c805aaab5f6e5b4b2cd7e9c3fa190823f60bc71371e/hosts",
+        "LogPath": "/var/lib/docker/containers/f0eb4e07cf070628399d2c805aaab5f6e5b4b2cd7e9c3fa190823f60bc71371e/f0eb4e07cf070628399d2c805aaab5f6e5b4b2cd7e9c3fa190823f60bc71371e-json.log",
+        "Name": "/werpx_mariadb",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "D:\\GitHub\\werpx-enterprise-os\\06_werpx_infra_data\\mariadb:/var/lib/mysql:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "werpx-enterprise-os_werpx_network",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "f0eb4e07cf070628399d2c805aaab5f6e5b4b2cd7e9c3fa190823f60bc71371e",
+                "LowerDir": "/var/lib/docker/overlay2/2ee32b534ab47f14b9f13054b984a8e9e7f6614bfce9774b1d6aeeebf81e1d10-init/diff:/var/lib/docker/overlay2/b65c4a53a0e8a7c18382a48b469ce6dd6f6dd5859d4fc0a5378bcf00f9c1d9b3/diff:/var/lib/docker/overlay2/d143dc17bcb23fde10feb38023330eacc7d96af0490a6d3207c441538cee03eb/diff:/var/lib/docker/overlay2/57c9a82642c1eb69ea8ecf5425fc6e6563a5ac2f098f2923d39f702a558e1719/diff:/var/lib/docker/overlay2/1626eea135d39c571dfd04f23e7aade78866df6444afff84a979e92c05ac351e/diff:/var/lib/docker/overlay2/74d67a3acfb7c9b20ba28fba98d07d200e53f84e21d891c4d97f80c9cfa01410/diff:/var/lib/docker/overlay2/3f4030cec32c300356a18c51b476ec97ce12ce5a68d11211afa625653aefc353/diff:/var/lib/docker/overlay2/bb328fa6594f34aa150e2b09093f6dab96369eb07e0b87032c7e6a0022088845/diff:/var/lib/docker/overlay2/d6ab70ccbdc0085cdeb557560282f73aa14cd9dac7da341d892bf540411718cd/diff",
+                "MergedDir": "/var/lib/docker/overlay2/2ee32b534ab47f14b9f13054b984a8e9e7f6614bfce9774b1d6aeeebf81e1d10/merged",
+                "UpperDir": "/var/lib/docker/overlay2/2ee32b534ab47f14b9f13054b984a8e9e7f6614bfce9774b1d6aeeebf81e1d10/diff",
+                "WorkDir": "/var/lib/docker/overlay2/2ee32b534ab47f14b9f13054b984a8e9e7f6614bfce9774b1d6aeeebf81e1d10/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "D:\\GitHub\\werpx-enterprise-os\\06_werpx_infra_data\\mariadb",
+                "Destination": "/var/lib/mysql",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "f0eb4e07cf07",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "3306/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "MYSQL_ROOT_PASSWORD=WerpxSecurePass2026!",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.19",
+                "LANG=C.UTF-8",
+                "MARIADB_MAJOR=10.6",
+                "MARIADB_VERSION=1:10.6.25+maria~ubu2204"
+            ],
+            "Cmd": [
+                "mariadbd"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "mysqladmin",
+                    "ping",
+                    "-h",
+                    "localhost"
+                ],
+                "Interval": 10000000000,
+                "Timeout": 5000000000,
+                "Retries": 5
+            },
+            "Image": "mariadb:10.6",
+            "Volumes": {
+                "/var/lib/mysql": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "23a19cfe9247e193584712db38b989f846658dbaf15b3da425e978fdecef8afc",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:eb40c69647cc5e34729046e362adba3062bead757f2cc80a84baa8e23db6e664",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "werpx-enterprise-os",
+                "com.docker.compose.project.config_files": "D:\\GitHub\\werpx-enterprise-os\\docker-compose.yml",
+                "com.docker.compose.project.working_dir": "D:\\GitHub\\werpx-enterprise-os",
+                "com.docker.compose.service": "mariadb",
+                "com.docker.compose.version": "2.35.1",
+                "org.opencontainers.image.authors": "MariaDB Community",
+                "org.opencontainers.image.base.name": "docker.io/library/ubuntu:jammy",
+                "org.opencontainers.image.description": "MariaDB Database for relational SQL",
+                "org.opencontainers.image.documentation": "https://hub.docker.com/_/mariadb/",
+                "org.opencontainers.image.licenses": "GPL-2.0",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.source": "https://github.com/MariaDB/mariadb-docker",
+                "org.opencontainers.image.title": "MariaDB Database",
+                "org.opencontainers.image.url": "https://github.com/MariaDB/mariadb-docker",
+                "org.opencontainers.image.vendor": "MariaDB Community",
+                "org.opencontainers.image.version": "10.6.25"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "0ff6c87d9f85ce355026c219149b78d8ce20febc58ad3cbe7addfc6fa6306a27",
+            "SandboxKey": "/var/run/docker/netns/0ff6c87d9f85",
+            "Ports": {
+                "3306/tcp": null
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "werpx-enterprise-os_werpx_network": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "werpx_mariadb",
+                        "mariadb"
+                    ],
+                    "MacAddress": "a6:ff:aa:b1:46:0e",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "3d0f15772f16a74c096f680ae764ce719e7ff24b46e479e8bd4df9bfa6d5f121",
+                    "EndpointID": "11e5f6a262681b40904afde7d9ef67849fc52f9e649c4a72b7e029d0a43a2419",
+                    "Gateway": "172.20.0.1",
+                    "IPAddress": "172.20.0.3",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "werpx_mariadb",
+                        "mariadb",
+                        "f0eb4e07cf07"
+                    ]
+                }
+            }
+        }
+    }
+]

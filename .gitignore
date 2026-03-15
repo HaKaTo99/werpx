@@ -1,0 +1,33 @@
+# WERP X Enterprise OS - Git Ignore Rules
+
+# 1. Database & Infrastructure Data (CRITICAL - DO NOT COMMIT)
+06_werpx_infra_data/
+*.rdb
+*.log
+*.err
+*.txt
+
+# 2. Python / Frappe
+__pycache__/
+*.py[cod]
+*$py.class
+frappe-bench/sites/
+frappe-bench/assets/
+frappe-bench/env/
+frappe-bench/config/
+node_modules/
+
+# 3. Rust Engine
+03_werpx_engine_rust/target/
+03_werpx_engine_rust/Cargo.lock
+
+# 4. Dashboard (Node/React)
+04_werpx_exec_mobile/dist/
+04_werpx_exec_mobile/.env
+
+# 5. OS / Temporary files
+.DS_Store
+Thumbs.db
+.git/index.lock
+*.tmp
+temp/
